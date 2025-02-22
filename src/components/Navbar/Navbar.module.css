@@ -1,0 +1,161 @@
+#content {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#content.visible {
+  opacity: 1;
+}
+
+.header {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  .button-link {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 25px;
+  }
+}
+.nav {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 2px solid #333;
+  z-index: 1000;
+}
+.menu_icon {
+  width: 45px;
+  height: 15px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+.menu_icon::before,
+.menu_icon::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  transition:
+    transform 0.4s ease,
+    background-color 0.3s ease;
+}
+
+.menu_icon::before {
+  top: 0;
+}
+
+.menu_icon::after {
+  bottom: 0;
+}
+
+.menu_icon:hover::before {
+  transform: translateX(-10px);
+}
+
+.menu_icon:hover::after {
+  transform: translateX(10px);
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s ease-in-out;
+  z-index: 999;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlay ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.overlay ul li {
+  margin: 20px 0;
+}
+
+.overlay ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: myFirstFont;
+  font-size: 78px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+.logon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+}
+
+.close_btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 30px 10px;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+  }
+}
