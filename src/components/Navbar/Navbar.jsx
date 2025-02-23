@@ -1,9 +1,18 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Navbar.module.css';
 
 function Navbar() {
   const [isNavVisible, setIsNavVisible] = useState(false);
+  const [pathname, setPathname] = useState(null);
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsNavVisible(false);
+    setPathname(location.pathname);
+    // console.log(location.pathname);
+  }, [location.pathname]);
 
   return (
     <div id={styles.content} className={styles.visible}>
@@ -21,22 +30,50 @@ function Navbar() {
       <div className={`${styles.overlay} ${isNavVisible && styles.active}`}>
         <ul>
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/" className={`${pathname == '/' && styles.visible}`}>
+              HOME {pathname != '/' && <FiArrowUpRight color="#fff" />}
+            </Link>
           </li>
           {/* <li>
             <Link to="">ABOUT</Link>
           </li> */}
           <li>
-            <Link to="/competitions">COMPETITIONS</Link>
+            <Link
+              to="/hackathon"
+              className={`${pathname == '/hackathon' && styles.visible}`}
+            >
+              hackathon{' '}
+              {pathname != '/hackathon' && <FiArrowUpRight color="#fff" />}
+            </Link>
           </li>
           <li>
-            <Link to="/events">EVENTS</Link>
+            <Link
+              to="/competitions"
+              className={`${pathname == '/competitions' && styles.visible}`}
+            >
+              competitions{' '}
+              {pathname != '/competitions' && <FiArrowUpRight color="#fff" />}
+            </Link>
           </li>
           <li>
-            <Link to="/workshops">WORKSHOPS</Link>
+            <Link
+              to="/events"
+              className={`${pathname == '/events' && styles.visible}`}
+            >
+              events {pathname != '/events' && <FiArrowUpRight color="#fff" />}
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/workshops"
+              className={`${pathname == '/workshops' && styles.visible}`}
+            >
+              workshops{' '}
+              {pathname != '/workshops' && <FiArrowUpRight color="#fff" />}
+            </Link>
           </li>
           {/* <li>
-            <Link to="/rules">RULES</Link>
+            <Link to="/rules" className={`${pathname == '/rules' && styles.visible}`}>RULES</Link>
           </li> */}
         </ul>
       </div>

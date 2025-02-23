@@ -17,9 +17,9 @@ main {
   width: 100%;
   color: #fff;
   padding: 40px 0;
-  font-family:
+  /* font-family:
     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, sans-serif;
+    Cantarell, sans-serif; */
   overflow: hidden;
   background-color: black;
   position: relative;

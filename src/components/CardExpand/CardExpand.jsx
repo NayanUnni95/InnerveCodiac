@@ -9,18 +9,24 @@ function CardExpand() {
     <div className={styles.cardContainer}>
       <div className={styles.innerContainer}>
         <div className={styles.card}>
-          <Link to={'/competitions'}>
-            <img src={card1} alt="card" />
+          <Link
+          //  to={'/competitions'}
+          >
+            <img src={card1} alt="competition card" />
           </Link>
         </div>
         <div className={styles.card}>
-          <Link to={'/events'}>
-            <img src={card2} alt="card" />
+          <Link
+          //  to={'/events'}
+          >
+            <img src={card2} alt="event card" />
           </Link>
         </div>
         <div className={styles.card}>
-          <Link to={'/workshops'}>
-            <img src={card3} alt="card" />
+          <Link
+          // to={'/workshops'}
+          >
+            <img src={card3} alt="workshop card" />
           </Link>
         </div>
       </div>

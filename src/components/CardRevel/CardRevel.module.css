@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: gt;
   src: url('The Blackmore DEMO.otf');
 }
@@ -31,7 +31,7 @@
 @font-face {
   font-family: 'CustomFont';
   src: url('./aAbsoluteEmpire.otf') format('opentype');
-}
+} */
 /* Container A – red background */
 
 /* Container B Wrapper – extra tall for scroll duration */

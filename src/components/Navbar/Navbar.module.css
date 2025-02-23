@@ -128,6 +128,13 @@
   position: relative;
   display: inline-block;
   transition: color 0.3s ease;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay ul li a.visible {
+  animation: glowAnimate 1s ease-in-out infinite alternate;
 }
 .overlay ul li a:hover {
   text-decoration: underline;
@@ -163,5 +170,15 @@
   }
   .overlay ul li a {
     font-size: 2rem;
+  }
+}
+@keyframes glowAnimate {
+  from {
+    text-shadow: 0 0 20px red;
+  }
+  to {
+    text-shadow:
+      0 0 30px red,
+      0 0 10px red;
   }
 }
