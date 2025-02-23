@@ -21,14 +21,23 @@ function Navbar() {
       <div className={`${styles.overlay} ${isNavVisible && styles.active}`}>
         <ul>
           <li>
-            <Link to="">HOME</Link>
+            <Link to="/">HOME</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="">ABOUT</Link>
+          </li> */}
+          <li>
+            <Link to="/competitions">COMPETITIONS</Link>
           </li>
           <li>
-            <Link to="">RULES</Link>
+            <Link to="/events">EVENTS</Link>
           </li>
+          <li>
+            <Link to="/workshops">WORKSHOPS</Link>
+          </li>
+          {/* <li>
+            <Link to="/rules">RULES</Link>
+          </li> */}
         </ul>
       </div>
       {/* <div className="header">

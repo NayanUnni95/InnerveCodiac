@@ -1,0 +1,113 @@
+/* @font-face {
+  font-family: gt;
+  src: url('The Blackmore DEMO.otf');
+}
+@font-face {
+  font-family: gg;
+  src: url('MangoGrotesque-Bold.otf');
+}
+@font-face {
+  font-family: danger;
+  src: url('Schnebel Slab Pro.ttf');
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('SpaceGrotesk-Regular.ttf');
+}
+@font-face {
+  font-family: 'bebas';
+  src: url('BebasNeue-Regular.otf');
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+
+body.loading {
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.cardContainer {
+  margin-top: 4rem;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.innerContainer {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  display: flex;
+  gap: 1.25rem;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+
+.card {
+  flex: 1;
+  transition: all 400ms ease;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.card:nth-child(odd) {
+  transform: translateY(-20px);
+}
+
+.card:nth-child(even) {
+  transform: translateY(20px);
+}
+@media (hover: hover) {
+  .innerContainer:hover .card:not(:hover) {
+    filter: grayscale(100%);
+    flex: 1;
+  }
+}
+
+.card:hover {
+  flex: 4;
+  transform: translateY(0);
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .innerContainer {
+    height: auto;
+    flex-direction: column;
+    /* padding: 20px; */
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    height: 200px;
+    flex: none;
+    transform: none !important;
+  }
+
+  .card:hover {
+    flex: 2;
+    height: 300px;
+  }
+  .innerContainer:hover .card:not(:hover) {
+    filter: grayscale(100%);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    height: 150px;
+  }
+
+  .card:hover {
+    height: 300px;
+  }
+}

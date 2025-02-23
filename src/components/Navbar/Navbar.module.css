@@ -129,6 +129,9 @@
   display: inline-block;
   transition: color 0.3s ease;
 }
+.overlay ul li a:hover {
+  text-decoration: underline;
+}
 .logon {
   position: absolute;
   left: 50%;
@@ -157,5 +160,8 @@
   }
   .header h1 {
     font-size: 1.8rem;
+  }
+  .overlay ul li a {
+    font-size: 2rem;
   }
 }

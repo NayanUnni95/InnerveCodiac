@@ -1,0 +1,63 @@
+.rulesContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glassOverlay {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  /* padding: 20px; */
+}
+.rulesSection {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  width: 90%;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: none;
+  /* max-height: 90vh; */
+  margin-top: 6rem;
+}
+.rulesContent {
+  padding: 1rem;
+}
+.rulesContent ul {
+  font-size: 1.2em;
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: #fff8f8;
+  font-family: myFirst;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.rulesContent ul li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .rulesContent ul li {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .rulesContent ul li {
+    font-size: 0.9rem;
+  }
+}
