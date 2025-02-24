@@ -1,3 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-background: #141414;
+  --primary-darumadrop: 'Darumadrop One', serif;
+  --primary-orbitron:
+    'Orbitron', serif; /*main headings,event titles,hero section*/
+  --primary-poppins: 'Poppins', serif; /*body text,descriptions,paragraphs*/
+  --primary-rajdhani:
+    'Rajdhani', serif; /*buttons,countdown,timers,leaderboard*/
+  --primary-rampart: 'Rampart One', serif;
+  --primary-rubik: 'Rubik Microbe', serif;
+  --primary-playfair: 'Playfair Display', serif;
+  --primary-sarina: 'Sarina', serif;
+  --primary-bungee: 'Bungee Inline', serif;
+  --primary-barlow: 'Barlow', serif;
+}
 * {
   margin: 0;
   padding: 0;

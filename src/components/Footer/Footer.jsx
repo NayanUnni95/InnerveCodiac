@@ -71,16 +71,16 @@ function Footer() {
   }, []);
   return (
     <div className={styles.footer_container}>
-      <div className={styles.footer_background}>
+      {/* <div className={styles.footer_background}>
         <img
           // src=""
           alt="Background"
         />
-      </div>
+      </div> */}
       <div className={styles.footer_overlay}></div>
 
       <div className={styles.footer_content}>
-        <div className={styles.brand_section}>
+        {/* <div className={styles.brand_section}>
           <div id={styles.container}>
             <span
               id={styles.text}
@@ -122,7 +122,7 @@ function Footer() {
               </filter>
             </defs>
           </svg>
-        </div>
+        </div> */}
         <div className={styles.nav_container}>
           <div className={styles.nav_section}>
             <h3 className={styles.nav_title}>Navigation</h3>

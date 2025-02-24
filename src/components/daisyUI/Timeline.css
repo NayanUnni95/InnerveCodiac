@@ -1,0 +1,13 @@
+.timelineContainer {
+  border-radius: 15px !important;
+  background-color: rgb(26, 26, 26) !important;
+  color: white;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.timeline-start,
+.timeline-end {
+  background-color: transparent !important;
+}

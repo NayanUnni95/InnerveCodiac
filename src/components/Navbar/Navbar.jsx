@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
+import img from '../../assets/images/home/innerve_logo_white.svg';
 import styles from './Navbar.module.css';
 
 function Navbar() {
@@ -21,11 +22,7 @@ function Navbar() {
           className={styles.menu_icon}
           onClick={() => setIsNavVisible(!isNavVisible)}
         ></div>
-        {/* <img
-          //   src=""
-          alt="Logo"
-          className={styles.logon}
-        /> */}
+        <img src={img} alt="Logo" className={styles.logon} />
       </nav>
       <div className={`${styles.overlay} ${isNavVisible && styles.active}`}>
         <ul>
@@ -37,7 +34,7 @@ function Navbar() {
           {/* <li>
             <Link to="">ABOUT</Link>
           </li> */}
-          <li>
+          {/* <li>
             <Link
               to="/hackathon"
               className={`${pathname == '/hackathon' && styles.visible}`}
@@ -45,7 +42,7 @@ function Navbar() {
               hackathon{' '}
               {pathname != '/hackathon' && <FiArrowUpRight color="#fff" />}
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/competitions"
@@ -77,10 +74,6 @@ function Navbar() {
           </li> */}
         </ul>
       </div>
-      {/* <div className="header">
-        <h1>Events</h1>
-        <p>innerve' 25 presents</p>
-      </div> */}
     </div>
   );
 }

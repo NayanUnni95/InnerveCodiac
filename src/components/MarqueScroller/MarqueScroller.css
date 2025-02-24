@@ -1,0 +1,87 @@
+.marquee-container {
+  position: relative;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  overflow: hidden;
+  background-size: cover;
+  background: black;
+}
+
+.marquees {
+  align-content: center;
+  height: 70vh;
+  display: grid;
+  gap: 5vw;
+  overflow: hidden;
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  margin-left: 0%;
+
+  transform: rotate(-5deg);
+  background: var(--marquee--colour);
+  color: #000;
+  white-space: nowrap;
+}
+.marquee:nth-child(even) {
+  transform: rotate(5deg);
+  background: #000;
+  color: var(--marquee--colour);
+}
+.marquee section {
+  transform: rotate(5deg);
+  background: #000;
+  color: var(--marquee--colour);
+}
+.marquee p {
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  gap: 0;
+  color: white;
+  line-height: 1.1;
+  font-size: clamp(2.5rem, 12vw, 6.2rem);
+  font-family: 'bebas';
+}
+
+.marquee--inner {
+  width: max-content;
+  display: flex;
+  text-transform: uppercase;
+  animation: marquee linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee:nth-child(odd) .marquee--inner {
+  animation-direction: reverse;
+}
+.container-b-wrapper {
+  position: relative;
+  height: calc(var(--vh, 1vh) * 100 + 3420px);
+}
+
+.container-c {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* height: 100vh; */
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  z-index: 2;
+  transform: translateY(100%);
+  transition: transform 0.2s ease-out;
+}

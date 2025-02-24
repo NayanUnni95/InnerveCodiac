@@ -14,6 +14,9 @@ import Events from './pages/Events/Events';
 import Workshops from './pages/Workshops/Workshops';
 import Hackathon from './pages/Hackathon/Hackathon';
 import NotFound from './pages/NotFound/NotFound';
+import IndividualComp from './pages/Competition/IndividualComp/IndividualComp';
+import IndividualEvent from './pages/Events/IndividualEvent/IndividualEvent';
+import IndividualWorkshop from './pages/Workshops/IndividualWorkshop/IndividualWorkshop';
 
 function App() {
   return (
@@ -24,11 +27,14 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/hackathon" element={<Hackathon />} />
             <Route path="/competitions" element={<Competition />} />
-            <Route path="/compId" element={'Loading Competition Page'} />
+            <Route path="/competitions/:compId" element={<IndividualComp />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/eventId" element={'Loading Event Page'} />
+            <Route path="/events/:eventId" element={<IndividualEvent />} />
             <Route path="/workshops" element={<Workshops />} />
-            <Route path="/workshopId" element={'Loading workshop Page'} />
+            <Route
+              path="/workshops/:workshopId"
+              element={<IndividualWorkshop />}
+            />
             <Route path="/about" element={'About'} />
             <Route path="/team" element={'Team'} />
             <Route path="/brochure" element={'Brochure'} />

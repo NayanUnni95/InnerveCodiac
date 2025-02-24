@@ -10,7 +10,7 @@ body {
   color: #fff;
   /* text-align: center; */
   /* background-size: cover; */
-  /* background-position: center; */
+  background-position: center;
   /* height: 100vh; */
 }
 /* @font-face {
@@ -20,8 +20,23 @@ body {
 .CompetitionContainer {
   margin-top: 4rem;
 }
+.header {
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0 0 0;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
 .filters {
-  margin: 20px 0;
+  /* margin: 20px 0; */
   width: 100%;
   align-items: center;
   display: flex;
@@ -39,6 +54,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin: 30px;
+  max-width: 135px;
+  text-align: center;
+}
+.buttonLink.visible {
+  background-color: #fff;
 }
 .buttonLink:hover {
   background-color: #fff;
@@ -176,9 +196,9 @@ body {
 }
 
 @media (max-width: 480px) {
-  .header {
+  /* .header {
     padding: 30px 10px;
-  }
+  } */
   .header h1 {
     font-size: 1.8rem;
   }
@@ -194,7 +214,7 @@ body {
     grid-template-columns: 1fr;
   }
   .eventCard {
-    width: 100%;
+    width: 85%;
   }
   .eventCard img {
     filter: grayscale(0%);

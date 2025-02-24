@@ -1,0 +1,27 @@
+.sliderIN {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  transform-origin: bottom;
+}
+.sliderOut {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ac03037a;
+  transform-origin: top;
+}
+.sliderOut1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff7a;
+  transform-origin: top;
+}

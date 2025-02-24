@@ -1,4 +1,6 @@
 import React from 'react';
+import video from '../../assets/images/home/InnervePromo.mp4';
+import img from '../../assets/images/home/2.png';
 import styles from './AboutUS.module.css';
 
 function AboutUS() {
@@ -7,13 +9,13 @@ function AboutUS() {
       <div className={styles.containerAbout} id="about">
         <br />
         <div className={styles.logoAndVideo}>
-          <div className={styles.logo} data-audio="">
-            <img src="" alt="" />
+          <div className={styles.logo}>
+            <img src={img} alt="Innerve Logo" />
           </div>
           <div className={styles.videoSection}>
-            <video autoPlay muted loop>
-              <source src="" type="video/mp4" />
-            </video>
+            {/* <video autoPlay muted style={{ transform: 'rotate(-90deg)' }}>
+              <source src={video} type="video/mp4" />
+            </video> */}
             <div className={`${styles.description} ${styles.reveal}`}>
               <p className={styles.animatedText}>
                 {[
@@ -80,8 +82,8 @@ function AboutUS() {
           </div>
         </div>
         <br />
-        <div className={`${styles.stats} ${styles.reveal}`}>
-          {[
+        {/* <div className={`${styles.stats} ${styles.reveal}`}> */}
+        {/* {[
             { count: '150000+', label: 'Prize Pool' },
             { count: '500+', label: 'Participation' },
             { count: '10+', label: 'Competition' },
@@ -92,8 +94,8 @@ function AboutUS() {
               <h2>{stat.count}</h2>
               <p>{stat.label}</p>
             </div>
-          ))}
-        </div>
+          ))} */}
+        {/* </div> */}
       </div>
     </>
   );
