@@ -5,7 +5,7 @@ export const workshops = [
     about:
       "Explore the power of containerization with Docker, a cutting-edge platform that simplifies application deployment. Learn how to package, distribute, and run applications seamlessly across different environments. Whether you're a beginner or an expert, dive into the world of Docker and revolutionize your development workflow!",
     type: 'workshops',
-    url: 'capture_the_flag.jpeg',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
     regLink: '',
     price: 199,
     isRegOpen: true,
@@ -21,7 +21,7 @@ export const workshops = [
     about:
       "Discover the future of creativity and automation with Generative AI. Explore how AI models can generate text, images, music, and more, revolutionizing industries with intelligent content creation. Whether you're a developer, artist, or innovator, dive into the world of Gen AI and unlock limitless possibilities!",
     type: 'workshops',
-    url: 'ai_ml.jpg',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
     regLink: '',
     price: 199,
     isRegOpen: true,

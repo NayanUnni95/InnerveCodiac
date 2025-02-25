@@ -18,7 +18,7 @@ function Workshops() {
             return (
               <div className={styles.eventCard} key={index}>
                 <Link to={`/workshops/${value.categoryId}`}>
-                  <img src={img} alt={value.name} />
+                  <img src={value.url} alt={value.name} />
                   <div className={styles.regDiv}>
                     <h3>Register Now</h3>
                     <FiArrowUpRight size={25} color="#fff" />
