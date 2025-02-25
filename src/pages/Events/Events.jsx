@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import img from './bob.jpg';
 import { events } from '../../data/data';
 import transition from '../../components/Transition/Transition';
+import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Events.module.css';
 
 function Events() {
@@ -51,6 +52,10 @@ function Events() {
             <div className={styles.eventCard} key={index}>
               <Link to={`/events/${value.categoryId}`}>
                 <img src={img} alt={value.name} />
+                <div className={styles.regDiv}>
+                  <h3>Register Now</h3>
+                  <FiArrowUpRight size={25} color="#fff" />
+                </div>
               </Link>
             </div>
           );

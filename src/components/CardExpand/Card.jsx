@@ -1,7 +1,15 @@
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import styles from './CardExpand.module.css';
 
 const Card = ({ imgSrc, isExpanded }) => {
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     setVisible(false);
+  //   }, 3000);
+
+  //   return () => clearTimeout(timeout);
+  // }, [location.pathname]);
   return (
     <motion.div
       className={styles.card}
