@@ -115,7 +115,7 @@ import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './Herosection.css';
-import Logo from '../../assets/images/home/innerve_logo_black.svg';
+import Logo from '../../assets/images/home/innerve_logo_white.svg';
 import RotatingText from '../../components/RotatingText/RotatingText';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -127,8 +127,9 @@ const HeroSection = () => {
   const containerRef = useRef(null);
   const sectionRef = useRef(null);
 
+
   useEffect(() => {
-    gsap.set(titleRef.current, { opacity: 1, y: 0, scale: 1.8 });
+    gsap.set(titleRef.current, { opacity: 1, y: -55, scale: 1.6 });
     gsap.set(logoRef.current, { opacity: 0, scale: 1.5, y: -40, zIndex: 4 });
     gsap.set(taglineRef.current, { opacity: 0, y: 80 });
 

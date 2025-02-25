@@ -14,13 +14,13 @@ const transition = (OgComponent) => {
         className={styles.sliderOut}
         initial={{ scaleY: 1 }}
         animate={{ scaleY: 0 }}
-        transition={{ duration: 7.5, ease: [0.22, 1, 0.36, 1], delay: 0.5 }}
+        transition={{ duration: 4.2, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
       />
       <motion.div
         className={styles.sliderOut1}
         initial={{ scaleY: 1 }}
         animate={{ scaleY: 0 }}
-        transition={{ duration: 4.5, ease: [0.22, 1, 0.36, 1], delay: 0.5 }}
+        transition={{ duration: 2.2, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
       />
       <OgComponent />
     </>

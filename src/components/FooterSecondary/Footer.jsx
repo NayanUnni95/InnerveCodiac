@@ -43,7 +43,7 @@ function Footer() {
           {data.map((value, index) => {
             return (
               <div className={styles.individualContainer} key={index}>
-                <h3>{value.category}</h3>
+                <h3 className={styles.category}>{value.category}</h3>
                 <div className={styles.groupContainer}>
                   {value.subCategory.map((value, index) => {
                     return (
@@ -64,10 +64,10 @@ function Footer() {
           <div>
             <span>Connect Us</span>
           </div>
-          <div>
-            <FaInstagram size={30} color="#635353" />
-            <BiLogoGmail size={30} color="#635353" />
-            <FaWhatsapp size={30} color="#635353" />
+          <div className={styles.logos}>
+            <FaInstagram size={30} color="#a29797" />
+            <BiLogoGmail size={30} color="#a29797" />
+            <FaWhatsapp size={30} color="#a29797" />
           </div>
           <div>
             <span>Innerve'25</span>

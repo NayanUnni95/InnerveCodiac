@@ -19,7 +19,7 @@ function IndividualComp() {
       <div className={styles.individualCompInnerContainer}>
         <div className={styles.compTitleSection}>
           <h3>Innerve'25 Presents</h3>
-          <h1>{compData && compData.name}</h1>
+          <h1 className={styles.compheading}>{compData && compData.name}</h1>
         </div>
         <div className={styles.compContentSection}>
           <div className={styles.contentPosterSection}>

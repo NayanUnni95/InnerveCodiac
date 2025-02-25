@@ -18,6 +18,12 @@
   position: relative;
   z-index: 10;
 }
+
+.eventheading{
+  font-family: var(--primary-oswald);
+  font-size:50px;
+  text-align: left;
+}
 .compTitleSection {
   margin-top: 4.5rem;
   padding: 1rem;

@@ -19,7 +19,7 @@ function IndividualWorkshop() {
       <div className={styles.individualCompInnerContainer}>
         <div className={styles.compTitleSection}>
           <h3>Innerve'25 Presents</h3>
-          <h1>{workshopData && workshopData.name}</h1>
+          <h1 className={styles.workshopname}>{workshopData && workshopData.name}</h1>
         </div>
         <div className={styles.compContentSection}>
           <div className={styles.contentPosterSection}>

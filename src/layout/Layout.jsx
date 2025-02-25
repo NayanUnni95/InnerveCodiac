@@ -27,16 +27,18 @@ function Layout() {
     <div className={styles.layoutContainer}>
       <Navbar />
       <Outlet />
-      <div
+      <div 
+      id={styles.loadingWrapper}
         style={{
-          width: '100%',
-          height: '100vh',
-          backgroundColor: 'blue',
-          position: 'absolute',
+          // width: '100%',
+          // height: '100vh',
+          // backgroundColor: 'rgba(133, 43, 43, 0.4)',
+          // backgroundColor:'linear-gradient(to right, #000000,rgb(133, 43, 43))',
+          // position: 'absolute',
           // zIndex: '3',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
+          // display: 'flex',
+          // alignItems: 'center',
+          // justifyContent: 'center',
           opacity: visible ? 1 : 0,
           transition: 'opacity 0.5s ease-out',
           pointerEvents: visible ? 'auto' : 'none',

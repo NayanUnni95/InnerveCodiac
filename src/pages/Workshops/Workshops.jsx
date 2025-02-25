@@ -8,7 +8,7 @@ function Workshops() {
   return (
     <div className={styles.workshopContainer}>
       <div className={styles.header}>
-        <h1>WORKSHOPS</h1>
+        <h1 className={styles.workshopheading}>WORKSHOPS</h1>
         <p>Innerve' 25 presents</p>
       </div>
       <div className={styles.events} id={styles.events}>

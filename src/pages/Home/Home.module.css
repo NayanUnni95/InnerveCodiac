@@ -56,3 +56,10 @@
   position: relative;
   text-transform: capitalize;
 }
+
+#aboutUS{
+  font-family: var(--primary-raleway) !important;
+  font-weight: 200 !important;
+  color:black !important;
+  font-size: 20px !important;
+}

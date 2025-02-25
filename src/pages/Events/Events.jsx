@@ -21,7 +21,7 @@ function Events() {
   return (
     <div className={styles.EventsContainer}>
       <div className={styles.header}>
-        <h1>EVENTS</h1>
+        <h1 className={styles.eventheading}>EVENTS</h1>
         <p>innerve' 25 presents</p>
       </div>
       <div className={styles.filters}>

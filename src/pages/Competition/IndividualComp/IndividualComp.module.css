@@ -101,6 +101,13 @@ a {
   align-items: center;
   /* justify-content: center; */
 }
+
+.compheading{
+  font-family: var(--primary-oswald);
+  font-size:50px;
+  text-align: left;
+}
+
 .contentAdditional select {
   width: 70%;
   margin-top: 0.5rem;

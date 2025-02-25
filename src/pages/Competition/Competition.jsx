@@ -21,7 +21,7 @@ function Competition() {
   return (
     <div className={styles.CompetitionContainer}>
       <div className={styles.header}>
-        <h1>COMPETITIONS</h1>
+        <h1 className={styles.competitionheading}>COMPETITIONS</h1>
         <p>Innerve' 25 presents</p>
       </div>
       <div className={styles.filters}>

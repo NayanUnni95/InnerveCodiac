@@ -26,6 +26,13 @@ body {
   padding: 50px 0 0 0;
 }
 
+.workshopheading{
+    font-family:var(--primary-opensans);
+    font-weight:800;
+    font-size:40px;
+
+}
+
 .header h1 {
   font-size: 3rem;
   margin: 0;
@@ -104,6 +111,7 @@ body {
 .buttonLink:hover span::after {
   animation: expand-border 1.5s forwards linear;
 }
+
 
 @keyframes expand-border {
   0% {
