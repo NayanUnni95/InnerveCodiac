@@ -127,7 +127,6 @@ const HeroSection = () => {
   const containerRef = useRef(null);
   const sectionRef = useRef(null);
 
-
   useEffect(() => {
     gsap.set(titleRef.current, { opacity: 1, y: -55, scale: 1.6 });
     gsap.set(logoRef.current, { opacity: 0, scale: 1.5, y: -40, zIndex: 4 });

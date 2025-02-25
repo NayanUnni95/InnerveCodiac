@@ -55,7 +55,14 @@ function Home() {
             blurStrength={15}
             id={styles.aboutUS}
           >
-            Innerve'25 is an Intercollege Technical Fest organized by the Department of Computer Science, College of Engineering Muttathara. It serves as a platform for students, and tech enthusiasts to compete, collaborate, and showcase their expertise through coding challenges, hackathons, workshops, and more. The fest fosters creativity, problem-solving, and hands-on learning, pushing the boundaries of technology. Join us to explore, innovate, and shape the future of tech!
+            Innerve'25 is an Intercollege Technical Fest organized by the
+            Department of Computer Science, College of Engineering Muttathara.
+            It serves as a platform for students, and tech enthusiasts to
+            compete, collaborate, and showcase their expertise through coding
+            challenges, hackathons, workshops, and more. The fest fosters
+            creativity, problem-solving, and hands-on learning, pushing the
+            boundaries of technology. Join us to explore, innovate, and shape
+            the future of tech!
           </ScrollReveal>
         </div>
       </div>

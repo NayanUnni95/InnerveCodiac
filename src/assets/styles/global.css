@@ -17,15 +17,15 @@
   --primary-bungee: 'Bungee Inline', serif;
   --primary-barlow: 'Barlow', serif;
   --primary-page-gradient: linear-gradient(to right, #000000, #922b2b);
-  --primary-oswald:"Oswald",serif;
-  --primary-opensans:"Open Sans",serif;
-  --primary-worksans:"Work Sans",serif;
-  --primart--raleway:"Raleway",serif;
-  --primary-gugi:"Gugi",serif;
-  --primary-kanit:"Kanit",serif;
-  --primary-electrolize:"Electrolize",serif;
-  --primary-righteous:"Righteous",serif;
-  --primary-outfit:"Outfit",serif;
+  --primary-oswald: 'Oswald', serif;
+  --primary-opensans: 'Open Sans', serif;
+  --primary-worksans: 'Work Sans', serif;
+  --primart--raleway: 'Raleway', serif;
+  --primary-gugi: 'Gugi', serif;
+  --primary-kanit: 'Kanit', serif;
+  --primary-electrolize: 'Electrolize', serif;
+  --primary-righteous: 'Righteous', serif;
+  --primary-outfit: 'Outfit', serif;
 }
 * {
   margin: 0;

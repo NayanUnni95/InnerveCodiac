@@ -25,7 +25,7 @@ function NotFound() {
           borderRadius: '3rem',
         }}
       >
-        <h4 style={{ color: 'red',width:'50px' }}>Back to home</h4>
+        <h4 style={{ color: 'red', width: '50px' }}>Back to home</h4>
       </Link>
     </div>
   );

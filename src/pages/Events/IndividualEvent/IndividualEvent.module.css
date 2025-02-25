@@ -19,9 +19,9 @@
   z-index: 10;
 }
 
-.eventheading{
+.eventheading {
   font-family: var(--primary-oswald);
-  font-size:50px;
+  font-size: 50px;
   text-align: left;
 }
 .compTitleSection {

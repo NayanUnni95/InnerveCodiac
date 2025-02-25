@@ -27,8 +27,8 @@ function Layout() {
     <div className={styles.layoutContainer}>
       <Navbar />
       <Outlet />
-      <div 
-      id={styles.loadingWrapper}
+      <div
+        id={styles.loadingWrapper}
         style={{
           // width: '100%',
           // height: '100vh',

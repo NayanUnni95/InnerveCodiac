@@ -25,10 +25,10 @@ body {
   background-color: black;
 }
 
-.competitionheading{
-  font-family:var(--primary-opensans);
-  font-weight:800;
-  font-size:40px;
+.competitionheading {
+  font-family: var(--primary-opensans);
+  font-weight: 800;
+  font-size: 40px;
 }
 .header {
   background-size: cover;
@@ -57,7 +57,7 @@ body {
   position: relative;
   display: inline-block;
   padding: 5px 15px;
-  color: #FF0000;
+  color: #ff0000;
   font-size: 20px;
   font-family: Verdana, sans-serif;
   text-decoration: none;
