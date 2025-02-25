@@ -27,7 +27,7 @@ function Layout() {
     <div className={styles.layoutContainer}>
       <Navbar />
       <Outlet />
-      {/* <div
+      <div
         style={{
           width: '100%',
           height: '100vh',
@@ -45,7 +45,7 @@ function Layout() {
         <h1 style={{ fontSize: '3rem' }}>
           {pathname && pathname.replace(/^\/+/, '')}
         </h1>
-      </div> */}
+      </div>
       {pathname === '/' && <FooterSecondary />}
     </div>
   );
