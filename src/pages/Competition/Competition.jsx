@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import img from './bob.jpg';
-import { competition } from '../../data/data';
+import { competition, imgPath } from '../../data/data';
 import transition from '../../components/Transition/Transition';
+import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Competition.module.css';
 
 function Competition() {
@@ -51,7 +52,11 @@ function Competition() {
             return (
               <div className={styles.eventCard} key={index}>
                 <Link to={`/competitions/${value.categoryId}`}>
-                  <img src={img} alt={value.name} />
+                  <img src={value.url} alt={value.name} />
+                  <div className={styles.regDiv}>
+                    <h3>Register Now</h3>
+                    <FiArrowUpRight size={25} color="#fff" />
+                  </div>
                 </Link>
               </div>
             );

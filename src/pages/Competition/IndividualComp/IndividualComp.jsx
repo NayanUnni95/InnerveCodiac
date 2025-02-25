@@ -51,9 +51,9 @@ function IndividualComp() {
                   })}
                 {/* <span>for any enquires</span> */}
               </h3>
-              <h3>
+              {/* <h3 style={{ textAlign: 'center' }}>
                 Note: <span>{compData && compData.note}</span>
-              </h3>
+              </h3> */}
               <h3>
                 Price: <span>₹{compData && compData.price}</span>
               </h3>

@@ -1,4 +1,8 @@
+h2 {
+  margin: 0 !important;
+}
 .individualCompOuterContainer {
+  text-align: start;
   width: 100%;
   /* height: 100vh; */
   /* background-color: yellowgreen; */
@@ -31,7 +35,7 @@
   color: rgb(231, 225, 131);
 }
 .compTitleSection h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-transform: capitalize;
 }
 .compContentSection {
@@ -42,6 +46,7 @@
   /* align-items: center; */
   justify-content: center;
   margin-bottom: 4rem;
+  border-radius: 1.5rem;
 }
 .contentPosterSection {
   width: 50%;
@@ -63,16 +68,25 @@
   width: 100%;
 }
 .contentDetailsSection div {
-  margin: 1rem;
+  /* margin: 1rem; */
+  margin: 1.1rem 1rem 0rem 1rem;
+}
+.contentDetailsSection div:first-child {
+  /* margin: 1rem; */
+  margin: 2rem 1rem 0rem 1rem;
 }
 .contentAbout {
-  font-size: 2rem;
+  font-size: 3rem;
   /* letter-spacing: -3px; */
 }
+/* .contentAbout h2 {
+  margin: 0 !important;
+} */
 .contentPara > * {
   margin: 0.5rem;
 }
 .contentPara p {
+  text-align: center;
   color: #85827d;
 }
 .contentPara h4 {
@@ -141,6 +155,7 @@ a {
   cursor: pointer;
   background-color: #ffffff;
   color: #000000;
+  margin-bottom: 2rem;
 }
 @media only screen and (max-width: 768px) {
   .individualCompInnerContainer {
