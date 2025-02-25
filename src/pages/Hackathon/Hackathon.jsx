@@ -1,4 +1,5 @@
 import React from 'react';
+import transition from '../../components/Transition/Transition';
 
 function Hackathon() {
   return (
@@ -16,4 +17,4 @@ function Hackathon() {
   );
 }
 
-export default Hackathon;
+export default transition(Hackathon);

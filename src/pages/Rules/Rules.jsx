@@ -1,4 +1,5 @@
 import styles from './Rules.module.css';
+import transition from '../../components/Transition/Transition';
 
 function Rules() {
   return (
@@ -22,4 +23,4 @@ function Rules() {
   );
 }
 
-export default Rules;
+export default transition(Rules);

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import img from '../../../assets/images/home/workshopCard.png';
+import transition from '../../../components/Transition/Transition';
 import { competition } from '../../../data/data';
 import styles from './IndividualComp.module.css';
 
@@ -85,4 +86,4 @@ function IndividualComp() {
   );
 }
 
-export default IndividualComp;
+export default transition(IndividualComp);

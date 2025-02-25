@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import AboutUS from '../../components/AboutUS/AboutUS';
+// import { useState, useEffect } from 'react';
+// import AboutUS from '../../components/AboutUS/AboutUS';
 import CardExpand from '../../components/CardExpand/CardExpand';
-import CardRevel from '../../components/CardRevel/CardRevel';
+// import CardRevel from '../../components/CardRevel/CardRevel';
 import MarqueScroller from '../../components/MarqueScroller/MarqueScroller';
 import HeroSection from '../../components/Herosection/Herosection';
 import ScrollVelocity from '../../components/ScrollVelocity/ScrollVelocity';
@@ -10,8 +10,8 @@ import TrueFocus from '../../components/TrueFocus/TrueFocus';
 import ScrollReveal from '../../components/ScrollReveal/ScrollReveal';
 import ShinyText from '../../components/shinyText/ShinyText';
 import CountUp from '../../components/CountUp/CountUp';
-import Footer from '../../components/FooterSecondary/Footer';
-import Transition from '../../components/Transition/Transition';
+// import Footer from '../../components/FooterSecondary/Footer';
+import transition from '../../components/Transition/Transition';
 import styles from './Home.module.css';
 
 function Home() {
@@ -183,5 +183,4 @@ function Home() {
   );
 }
 
-// export default Home;
-export default Transition(Home);
+export default transition(Home);

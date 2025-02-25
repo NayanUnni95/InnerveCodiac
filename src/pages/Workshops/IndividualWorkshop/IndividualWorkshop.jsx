@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import img from '../../../assets/images/home/workshopCard.png';
 import { workshops } from '../../../data/data';
+import transition from '../../../components/Transition/Transition';
 import styles from './IndividualWorkshop.module.css';
 
 function IndividualWorkshop() {
@@ -72,7 +73,7 @@ function IndividualWorkshop() {
                   {/* Register{' '} */}
                   {workshopData && workshopData.isRegOpen ? (
                     <>
-                      Register <FiArrowUpRight size={20} />
+                      Register <FiArrowUpRight size={20} color="#000000" />
                     </>
                   ) : (
                     'Registration Closed'
@@ -87,4 +88,4 @@ function IndividualWorkshop() {
   );
 }
 
-export default IndividualWorkshop;
+export default transition(IndividualWorkshop);

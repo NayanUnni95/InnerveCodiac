@@ -132,6 +132,8 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
 }
 @media only screen and (max-width: 768px) {
   .individualCompInnerContainer {

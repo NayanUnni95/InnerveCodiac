@@ -1,4 +1,5 @@
 import styles from './Sponsors.module.css';
+import transition from '../../components/Transition/Transition';
 
 function Sponsors() {
   return (
@@ -55,4 +56,4 @@ function Sponsors() {
   );
 }
 
-export default Sponsors;
+export default transition(Sponsors);

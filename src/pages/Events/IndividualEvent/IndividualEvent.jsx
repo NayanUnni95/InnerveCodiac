@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { RiShareForwardFill } from 'react-icons/ri';
 import img from '../../../assets/images/home/workshopCard.png';
 import { events } from '../../../data/data';
+import transition from '../../../components/Transition/Transition';
 import styles from './IndividualEvent.module.css';
 
 function IndividualEvent() {
@@ -85,4 +86,4 @@ function IndividualEvent() {
   );
 }
 
-export default IndividualEvent;
+export default transition(IndividualEvent);
