@@ -15,7 +15,13 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #9e0000;
+  /* background-color: #9e0000; */
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 0, 0, 0.418) 100%
+  );
+  backdrop-filter: blur(8px);
   transform-origin: top;
 }
 
@@ -26,6 +32,12 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.15) 0%,
+    rgba(0, 0, 0, 0.226) 100%
+  );
+  backdrop-filter: blur(2px);
   transform-origin: top;
 }

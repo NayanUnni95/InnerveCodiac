@@ -27,7 +27,7 @@ function Layout() {
     <div className={styles.layoutContainer}>
       <Navbar />
       <Outlet />
-      <div
+      {/* <div
         style={{
           width: '100%',
           height: '100vh',
@@ -42,8 +42,10 @@ function Layout() {
           pointerEvents: visible ? 'auto' : 'none',
         }}
       >
-        <h1 style={{ fontSize: '3rem' }}>{pathname.replace(/^\/+/, '')}</h1>
-      </div>
+        <h1 style={{ fontSize: '3rem' }}>
+          {pathname && pathname.replace(/^\/+/, '')}
+        </h1>
+      </div> */}
       {pathname === '/' && <FooterSecondary />}
     </div>
   );

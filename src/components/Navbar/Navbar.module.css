@@ -118,7 +118,9 @@
 .overlay ul li {
   margin: 20px 0;
 }
-
+.overlay ul li svg {
+  margin-left: 0.5rem;
+}
 .overlay ul li a {
   color: white;
   text-decoration: none;
