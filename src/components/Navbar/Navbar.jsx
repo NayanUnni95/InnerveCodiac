@@ -12,7 +12,6 @@ function Navbar() {
   useEffect(() => {
     setIsNavVisible(false);
     setPathname(location.pathname);
-    // console.log(location.pathname);
   }, [location.pathname]);
 
   return (

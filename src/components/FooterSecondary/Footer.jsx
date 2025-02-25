@@ -65,9 +65,23 @@ function Footer() {
             <span>Connect Us</span>
           </div>
           <div className={styles.logos}>
-            <FaInstagram size={30} color="#a29797" />
-            <BiLogoGmail size={30} color="#a29797" />
-            <FaWhatsapp size={30} color="#a29797" />
+            <a
+              href="https://www.instagram.com/innerve_official/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram size={30} color="#a29797" />
+            </a>
+            <a href="mailto:innerve.official2025@gmail.com">
+              <BiLogoGmail size={30} color="#a29797" />
+            </a>
+            <a
+              href="https://wa.me/+917034371668"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp size={30} color="#a29797" />
+            </a>
           </div>
           <div>
             <span>Innerve'25</span>

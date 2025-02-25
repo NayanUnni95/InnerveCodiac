@@ -5,7 +5,7 @@ export const competition = [
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/CTF_RED_ukxu8t.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfTIHPdkIU4QXN_r7Xzd6CWhZWMa2HB39hrunBa8N8mldt_yQ/viewform?usp=dialog',
     isRegOpen: true,
@@ -22,7 +22,7 @@ export const competition = [
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/WhatsApp_Image_2025-02-25_at_9.35.23_PM_fnyvsv.jpg',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
     isRegOpen: true,
@@ -39,7 +39,7 @@ export const competition = [
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506208/REVERSE_CODING_RED_thcigh.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeJAmmU2nRATcENCFe3zZ9L9lTYRP_tHubuR8m87mRC9oI9QQ/viewform?usp=dialog',
     isRegOpen: true,
@@ -90,7 +90,7 @@ export const competition = [
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/RC_bwwrgl.png',
     regLink:
       'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411719/RC_RACING_a0s8kq.png',
     isRegOpen: true,
