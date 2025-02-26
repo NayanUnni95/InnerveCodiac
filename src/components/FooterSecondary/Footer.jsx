@@ -31,7 +31,7 @@ function Footer() {
     {
       category: 'Head of Tech Events',
       subCategory: [
-        { name: 'Sandeep Kumar Santhosh', number: '+91 7593096592' },
+        { name: 'Sandeep Kumar', number: '+91 7593096592' },
         { name: 'Clifin Cletus', number: '+91 9605277429' },
       ],
     },
