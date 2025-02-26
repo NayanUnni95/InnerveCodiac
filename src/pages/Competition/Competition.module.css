@@ -150,7 +150,7 @@ body {
 .eventCard {
   background: #222;
   border-radius: 16px;
-  width: 95%;
+  width: 100%;
   margin: auto;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
   box-shadow: 5px 7px 20px rgba(0, 0, 0, 0.3);
@@ -242,7 +242,7 @@ body {
     grid-template-columns: 1fr;
   }
   .eventCard {
-    width: 85%;
+    width: 100%;
   }
   .eventCard img {
     filter: grayscale(0%);

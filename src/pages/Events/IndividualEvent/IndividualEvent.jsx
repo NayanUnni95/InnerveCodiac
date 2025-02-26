@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { RiShareForwardFill } from 'react-icons/ri';
 import img from '../../../assets/images/home/workshopCard.png';
 import { domain, events } from '../../../data/data';
@@ -51,7 +51,7 @@ function IndividualEvent() {
             </div>
             <div className={styles.contentPara}>
               <p>{eventData && eventData.about}</p>
-              <h3>
+              {/* <h3>
                 Contact Details
                 {eventData &&
                   eventData.contact.map((value, index) => {
@@ -69,17 +69,19 @@ function IndividualEvent() {
                       </div>
                     );
                   })}
-                {/* <span>for any enquires</span> */}
-              </h3>
-              <h3>
-                Note:{' '}
-                <span style={{ color: '#fe4545' }}>
-                  {eventData && eventData.note}
-                </span>
-              </h3>
-              <h3>
+                <span>for any enquires</span>
+              </h3> */}
+              {eventData && eventData.type != 'expo' && (
+                <h3>
+                  Note:{' '}
+                  <span style={{ color: '#fe4545' }}>
+                    {eventData && eventData.note}
+                  </span>
+                </h3>
+              )}
+              {/* <h3>
                 Price: <span>₹{eventData && eventData.price}</span>
-              </h3>
+              </h3> */}
             </div>
             {/* <div className={styles.contentAdditional}>
               <label>Number of Participation</label>
@@ -94,7 +96,7 @@ function IndividualEvent() {
                   onClick={() =>
                     shareItem(
                       eventData.name,
-                      `${domain}/events?eventName=${eventData.searchKey}`
+                      `/events?eventName=${eventData.searchKey}`
                     )
                   }
                 >

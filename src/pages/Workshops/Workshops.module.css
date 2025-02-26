@@ -235,7 +235,7 @@ body {
     grid-template-columns: 1fr;
   }
   .eventCard {
-    width: 85%;
+    width: 100%;
   }
   .eventCard img {
     filter: grayscale(0%);

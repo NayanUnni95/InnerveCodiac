@@ -61,17 +61,34 @@ function Events() {
       <div className={styles.events} id={styles.events}>
         {filteredData.map((value, index) => {
           return (
-            <div className={styles.eventCard} key={index}>
-              <Link to={`/events/${value.categoryId}`}>
-                <img src={value.url} alt={value.name} />
-                <div className={styles.regDiv}>
-                  <h3>Register Now</h3>
-                  <FiArrowUpRight size={25} color="#fff" />
-                </div>
-              </Link>
-            </div>
+            <>
+              <div className={styles.eventCard} key={index}>
+                <Link to={`/events/${value.categoryId}`}>
+                  <img src={value.url} alt={value.name} />
+                  {/* <div className={styles.regDiv}>
+                    <h3>Register Now</h3>
+                    <FiArrowUpRight size={25} color="#fff" />
+                  </div> */}
+                </Link>
+              </div>
+            </>
           );
         })}
+        {filterType == 'funGames' && (
+          <div
+            className={styles.eventCard}
+            style={{
+              width: '100%',
+              height: '8rem',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexDirection: 'column',
+            }}
+          >
+            <h3>Stay tuned for more updates.</h3>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -78,16 +78,13 @@ export const competition = [
     type: 'non-tech',
     about:
       'Have a story to tell, research to share, or an opinion that needs to be heard? The Journal Competition is your chance to express, explore, and inspire through the power of words! Whether it is technology, science, social issues, or creative storytelling, showcase your writing skills, analytical thinking, and unique perspectives.',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740571482/litrature_ukcwiq.jpg',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
     isRegOpen: true,
     price: '40',
     note: 'noting to say!',
-    contact: [
-      { name: 'jeswin', no: '7012721738' },
-  
-    ],
+    contact: [{ name: 'jeswin', no: '7012721738' }],
   },
   {
     name: 'Rc Racing',
@@ -102,9 +99,7 @@ export const competition = [
     isRegOpen: true,
     price: '200',
     note: 'noting to say!',
-    contact: [
-      { name: 'Jeswin', no: '7012721738' },
-    ],
+    contact: [{ name: 'Jeswin', no: '7012721738' }],
   },
   {
     name: 'Debugging',
@@ -137,9 +132,7 @@ export const competition = [
     isRegOpen: true,
     price: '200',
     note: 'noting to say!',
-    contact: [
-      { name: 'Jeswin', no: '7012721738' },
-    ],
+    contact: [{ name: 'Jeswin', no: '7012721738' }],
   },
   {
     name: 'Treasure Hunt',
@@ -148,8 +141,9 @@ export const competition = [
     type: 'non-tech',
     about:
       'Decode cryptic clues, solve mind-bending puzzles, and race against time to find the hidden treasure! This thrilling adventure will test your teamwork, problem-solving skills, and ability to think on your feet. The ultimate challenge of wit, strategy, and speed awaits—will you be the one to uncover the prize?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
-    regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740509350/14_aponj6.png',
+    regLink:
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '60',
     note: 'noting to say!',

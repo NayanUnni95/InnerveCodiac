@@ -1,7 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import {
+  Link,
+  useSearchParams,
+  useNavigate,
+  useParams,
+} from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
-import img from '../../../assets/images/home/workshopCard.png';
+import { RiShareForwardFill } from 'react-icons/ri';
 import transition from '../../../components/Transition/Transition';
 import { competition, domain } from '../../../data/data';
 import styles from './IndividualComp.module.css';
@@ -9,6 +14,7 @@ import styles from './IndividualComp.module.css';
 function IndividualComp() {
   const [compData, setCompData] = useState(null);
   const { compId } = useParams();
+
   const navigate = (url) => window.open(url, '_blank');
   const shareItem = async (name, url) => {
     if (navigator.share) {
@@ -98,6 +104,21 @@ function IndividualComp() {
                   )}{' '}
                 </button>
               </Link>
+              <button
+                id={styles.shareBtn}
+                onClick={() =>
+                  shareItem(
+                    compData.name,
+                    `/competitions?compName=${compData.searchKey}`
+                  )
+                }
+              >
+                Share
+                <RiShareForwardFill
+                  size={20}
+                  style={{ marginLeft: '0.3rem' }}
+                />
+              </button>
             </div>
           </div>
         </div>

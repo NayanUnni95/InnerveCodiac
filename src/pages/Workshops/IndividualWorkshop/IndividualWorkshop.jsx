@@ -1,8 +1,13 @@
 import { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import {
+  Link,
+  useSearchParams,
+  useNavigate,
+  useParams,
+} from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
-import img from '../../../assets/images/home/workshopCard.png';
-import { workshops } from '../../../data/data';
+import { RiShareForwardFill } from 'react-icons/ri';
+import { workshops, domain } from '../../../data/data';
 import transition from '../../../components/Transition/Transition';
 import styles from './IndividualWorkshop.module.css';
 
@@ -102,6 +107,21 @@ function IndividualWorkshop() {
                   )}{' '}
                 </button>
               </Link>
+              <button
+                id={styles.shareBtn}
+                onClick={() =>
+                  shareItem(
+                    workshopData.name,
+                    `/workshops?workshopName=${workshopData.searchKey}`
+                  )
+                }
+              >
+                Share
+                <RiShareForwardFill
+                  size={20}
+                  style={{ marginLeft: '0.3rem' }}
+                />
+              </button>
             </div>
           </div>
         </div>

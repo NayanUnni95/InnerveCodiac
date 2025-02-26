@@ -134,6 +134,12 @@ a {
   align-items: center;
   justify-content: center;
 }
+.contentBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .contentBtn,
 a {
   width: 100%;
@@ -156,6 +162,9 @@ a {
   background-color: #ffffff;
   color: #000000;
   margin-bottom: 2rem;
+}
+#shareBtn {
+  background-color: rgba(240, 19, 19, 0.705);
 }
 @media only screen and (max-width: 768px) {
   .individualCompInnerContainer {
