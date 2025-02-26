@@ -1,14 +1,9 @@
 import { useState, useEffect } from 'react';
-import {
-  Link,
-  useSearchParams,
-  useNavigate,
-  useParams,
-} from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { RiShareForwardFill } from 'react-icons/ri';
 import transition from '../../../components/Transition/Transition';
-import { competition, domain } from '../../../data/data';
+import { competition } from '../../../data/data';
 import styles from './IndividualComp.module.css';
 
 function IndividualComp() {

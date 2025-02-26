@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
-import { competition, imgPath } from '../../data/data';
+import { competition } from '../../data/data';
 import transition from '../../components/Transition/Transition';
 import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Competition.module.css';
@@ -24,7 +24,7 @@ function Competition() {
   };
   useEffect(() => {
     if (query) {
-      events.map((value) => {
+      competition.map((value) => {
         if (value.searchKey == query) {
           navigate(`/competitions/${value.categoryId}`);
         }

@@ -1,13 +1,8 @@
 import { useState, useEffect } from 'react';
-import {
-  Link,
-  useSearchParams,
-  useNavigate,
-  useParams,
-} from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { RiShareForwardFill } from 'react-icons/ri';
-import { workshops, domain } from '../../../data/data';
+import { workshops } from '../../../data/data';
 import transition from '../../../components/Transition/Transition';
 import styles from './IndividualWorkshop.module.css';
 

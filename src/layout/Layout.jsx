@@ -24,7 +24,10 @@ function Layout() {
   }, [location.pathname]);
 
   return (
-    <div className={styles.layoutContainer}>
+    <div
+      className={styles.layoutContainer}
+      style={{ overflow: visible && 'hidden' }}
+    >
       <Navbar />
       <Outlet />
       {pathname != '/' &&

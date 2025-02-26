@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { RiShareForwardFill } from 'react-icons/ri';
-import img from '../../../assets/images/home/workshopCard.png';
-import { domain, events } from '../../../data/data';
+import { events } from '../../../data/data';
 import transition from '../../../components/Transition/Transition';
 import styles from './IndividualEvent.module.css';
 

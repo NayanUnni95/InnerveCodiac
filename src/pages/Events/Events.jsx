@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { events } from '../../data/data';
 import transition from '../../components/Transition/Transition';
-import { FiArrowUpRight } from 'react-icons/fi';
+// import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Events.module.css';
 
 function Events() {

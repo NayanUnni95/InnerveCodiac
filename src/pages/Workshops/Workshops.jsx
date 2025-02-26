@@ -8,33 +8,19 @@ import styles from './Workshops.module.css';
 function Workshops() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
-  const query = searchParams.get('WorkshopName');
-  const shareItem = async (name, url) => {
-    if (navigator.share) {
-      await navigator
-        .share({
-          title: name,
-          url: url,
-        })
-        .then((res) => {
-          console.log('shared successfully');
-        })
-        .catch((err) => {
-          console.error(err);
-        });
-    } else {
-      console.log('web share api does not exist');
-    }
-  };
+  const query = searchParams.get('workshopName');
 
   useEffect(() => {
     if (query) {
-      events.map((value) => {
+      workshops.map((value) => {
         if (value.searchKey == query) {
           navigate(`/workshops/${value.categoryId}`);
         }
       });
     }
+  }, [query]);
+  useEffect(() => {
+    console.log(query);
   }, [query]);
   return (
     <div className={styles.workshopContainer}>

@@ -19,7 +19,7 @@
     #7e141f,
     #5d121a
   );
-  position: absolute;
+  position: fixed;
   z-index: 20;
   display: flex;
   align-items: center;
