@@ -3,13 +3,30 @@ import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import img from '../../../assets/images/home/workshopCard.png';
 import transition from '../../../components/Transition/Transition';
-import { competition } from '../../../data/data';
+import { competition, domain } from '../../../data/data';
 import styles from './IndividualComp.module.css';
 
 function IndividualComp() {
   const [compData, setCompData] = useState(null);
   const { compId } = useParams();
   const navigate = (url) => window.open(url, '_blank');
+  const shareItem = async (name, url) => {
+    if (navigator.share) {
+      await navigator
+        .share({
+          title: name,
+          url: url,
+        })
+        .then((res) => {
+          console.log('shared successfully');
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    } else {
+      console.log('web share api does not exist');
+    }
+  };
 
   useEffect(() => {
     setCompData(competition.find((value) => value.categoryId == compId));
@@ -23,7 +40,10 @@ function IndividualComp() {
         </div>
         <div className={styles.compContentSection}>
           <div className={styles.contentPosterSection}>
-            <img src={img} alt={compData && compData.name} />
+            <img
+              src={compData && compData.url}
+              alt={compData && compData.name}
+            />
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>

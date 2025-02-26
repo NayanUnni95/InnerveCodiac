@@ -8,6 +8,8 @@
 .countdown-title {
   font-size: 24px;
   font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Rowdies', serif;
   color: #fff;
   margin-bottom: 15px;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);

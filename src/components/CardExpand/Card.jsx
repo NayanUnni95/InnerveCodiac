@@ -14,8 +14,10 @@ const Card = ({ imgSrc, isExpanded }) => {
     <motion.div
       className={styles.card}
       animate={{
-        flex: isExpanded ? 4 : 1,
-        height: isExpanded ? '65vh' : '150px',
+        // flex: isExpanded ? 4 : 1,
+        // height: isExpanded ? '65vh' : '150px',
+        flex: 4,
+        height: '65vh',
       }}
       transition={{
         flex: { duration: 0.8, ease: [0.22, 1, 0.36, 1] },

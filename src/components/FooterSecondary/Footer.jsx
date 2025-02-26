@@ -7,8 +7,8 @@ import styles from './Footer.module.css';
 function Footer() {
   const data = [
     {
-      category: 'Staff Coordinator',
-      subCategory: [{ name: 'Shamna A L', number: '+91 9895480733' }],
+      category: 'Faculty Coordinator',
+      subCategory: [{ name: 'Prof.Shamna A L', number: '+91 9895480733' }],
     },
     {
       category: 'Student Coordinators',
@@ -50,7 +50,7 @@ function Footer() {
                       <div className={styles.personCellContainer} key={index}>
                         <div>
                           <p>{value.name}</p>
-                          <p>{value.number}</p>
+                          <a href={`tel:${value.number}`}>{value.number}</a>
                         </div>
                       </div>
                     );

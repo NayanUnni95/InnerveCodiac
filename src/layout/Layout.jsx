@@ -37,7 +37,7 @@ function Layout() {
           }}
         >
           <h1 style={{ fontSize: '3rem' }}>
-            {pathname && pathname.replace(/^\/+/, '')}
+            {(pathname && pathname.split('/')[1]) || ''}
           </h1>
         </div>
       )}

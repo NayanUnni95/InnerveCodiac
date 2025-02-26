@@ -2,6 +2,7 @@ export const competition = [
   {
     name: 'Capture the Flag',
     categoryId: 1,
+    searchKey: 'capture-the-flag',
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -19,6 +20,7 @@ export const competition = [
   {
     name: 'AI prompt Magic',
     categoryId: 2,
+    searchKey: 'ai-prompt-magic',
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -36,6 +38,7 @@ export const competition = [
   {
     name: 'Reverse Coding',
     categoryId: 3,
+    searchKey: 'reverse-coding',
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -53,6 +56,7 @@ export const competition = [
   {
     name: 'Competitive Coding',
     categoryId: 4,
+    searchKey: 'competitive-coding',
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -70,6 +74,7 @@ export const competition = [
   {
     name: 'Literature',
     categoryId: 5,
+    searchKey: 'literature',
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -87,6 +92,7 @@ export const competition = [
   {
     name: 'Rc Racing',
     categoryId: 6,
+    searchKey: 'rc-racing',
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -104,6 +110,7 @@ export const competition = [
   {
     name: 'Debugging',
     categoryId: 7,
+    searchKey: 'debugging',
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -121,6 +128,7 @@ export const competition = [
   {
     name: 'Robo Football',
     categoryId: 8,
+    searchKey: 'robo-football',
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -138,6 +146,7 @@ export const competition = [
   {
     name: 'buzz ring',
     categoryId: 9,
+    searchKey: 'buzz-ring',
     type: 'non-tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -154,6 +163,7 @@ export const competition = [
   {
     name: 'Quiz',
     categoryId: 10,
+    searchKey: 'quiz',
     type: 'tech',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',

@@ -2,6 +2,7 @@ export const events = [
   {
     name: 'squid game',
     categoryId: 1,
+    searchKey: 'squid-game',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -18,6 +19,7 @@ export const events = [
   {
     name: 'sharpe shooter',
     categoryId: 2,
+    searchKey: 'sharpe-shooter',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -33,6 +35,7 @@ export const events = [
   },
   {
     name: 'baloon blitz',
+    searchKey: 'baloon-blitz',
     categoryId: 3,
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
@@ -50,6 +53,7 @@ export const events = [
   {
     name: "toss 'n' target",
     categoryId: 4,
+    searchKey: 'toss-n-target',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -66,6 +70,7 @@ export const events = [
   {
     name: 'puzzle',
     categoryId: 5,
+    searchKey: 'puzzle',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -82,6 +87,7 @@ export const events = [
   {
     name: 'battle station',
     categoryId: 6,
+    searchKey: 'battle-station',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -98,6 +104,7 @@ export const events = [
   {
     name: 'asphalt fury',
     categoryId: 7,
+    searchKey: 'asphalt-fury',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -114,6 +121,7 @@ export const events = [
   {
     name: 'beat the timer',
     categoryId: 8,
+    searchKey: 'beat-the-timer',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -130,6 +138,7 @@ export const events = [
   {
     name: 'buzz ring',
     categoryId: 9,
+    searchKey: 'buzz-ring',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'funGames',
@@ -146,6 +155,7 @@ export const events = [
   {
     name: 'backer ball',
     categoryId: 10,
+    searchKey: 'backer-ball',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'expo',
@@ -162,6 +172,7 @@ export const events = [
   {
     name: "toss 'n' target",
     categoryId: 4,
+    searchKey: 'toss-n-target',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'expo',
@@ -178,6 +189,7 @@ export const events = [
   {
     name: 'puzzle',
     categoryId: 5,
+    searchKey: 'puzzle',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'expo',
@@ -194,6 +206,7 @@ export const events = [
   {
     name: 'battle station',
     categoryId: 6,
+    searchKey: 'battle-station',
     about:
       'Step into the high-stakes world of Squid Game, where survival is the ultimate goal. Navigate through intense, childhood-inspired challenges that test strategy, skill, and luck. With every round bringing new risks and rewards, only the sharpest minds and strongest wills will make it to the end. Are you ready to play?',
     type: 'expo',

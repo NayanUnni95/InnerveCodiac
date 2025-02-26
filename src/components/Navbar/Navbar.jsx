@@ -26,7 +26,13 @@ function Navbar() {
       <div className={`${styles.overlay} ${isNavVisible && styles.active}`}>
         <ul>
           <li>
-            <Link to="/" className={`${pathname == '/' && styles.visible}`}>
+            <Link
+              to="/"
+              className={`${pathname == '/' && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
+            >
               HOME {pathname != '/' && <FiArrowUpRight color="#fff" />}
             </Link>
           </li>
@@ -45,27 +51,47 @@ function Navbar() {
           <li>
             <Link
               to="/competitions"
-              className={`${pathname == '/competitions' && styles.visible}`}
+              className={`${
+                pathname &&
+                pathname.startsWith('/competitions') &&
+                styles.visible
+              }`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
             >
               competitions{' '}
-              {pathname != '/competitions' && <FiArrowUpRight color="#fff" />}
+              {pathname && pathname.startsWith('/competitions') && (
+                <FiArrowUpRight color="#fff" />
+              )}
             </Link>
           </li>
           <li>
             <Link
               to="/events"
-              className={`${pathname == '/events' && styles.visible}`}
+              className={`${pathname && pathname.startsWith('/events') && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
             >
-              events {pathname != '/events' && <FiArrowUpRight color="#fff" />}
+              events{' '}
+              {pathname && pathname.startsWith('/events') && (
+                <FiArrowUpRight color="#fff" />
+              )}
             </Link>
           </li>
           <li>
             <Link
               to="/workshops"
-              className={`${pathname == '/workshops' && styles.visible}`}
+              className={`${pathname && pathname.startsWith('/workshops') && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
             >
               workshops{' '}
-              {pathname != '/workshops' && <FiArrowUpRight color="#fff" />}
+              {pathname && pathname.startsWith('/workshops') && (
+                <FiArrowUpRight color="#fff" />
+              )}
             </Link>
           </li>
           {/* <li>

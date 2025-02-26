@@ -1,11 +1,41 @@
-import { Link } from 'react-router-dom';
-import img from './bob.jpg';
+import { useEffect } from 'react';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { workshops } from '../../data/data';
 import transition from '../../components/Transition/Transition';
 import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Workshops.module.css';
 
 function Workshops() {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const query = searchParams.get('WorkshopName');
+  const shareItem = async (name, url) => {
+    if (navigator.share) {
+      await navigator
+        .share({
+          title: name,
+          url: url,
+        })
+        .then((res) => {
+          console.log('shared successfully');
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    } else {
+      console.log('web share api does not exist');
+    }
+  };
+
+  useEffect(() => {
+    if (query) {
+      events.map((value) => {
+        if (value.searchKey == query) {
+          navigate(`/workshops/${value.categoryId}`);
+        }
+      });
+    }
+  }, [query]);
   return (
     <div className={styles.workshopContainer}>
       <div className={styles.header}>
