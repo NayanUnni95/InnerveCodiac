@@ -1,6 +1,7 @@
 .homeContainer {
   display: flex;
   flex-direction: column;
+  background-color: #000000;
 }
 .countUpContainer {
   width: 100%;

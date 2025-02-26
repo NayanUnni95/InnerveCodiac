@@ -61,7 +61,7 @@ function Navbar() {
               }}
             >
               competitions{' '}
-              {pathname && pathname.startsWith('/competitions') && (
+              {pathname && !pathname.startsWith('/competitions') && (
                 <FiArrowUpRight color="#fff" />
               )}
             </Link>
@@ -75,7 +75,7 @@ function Navbar() {
               }}
             >
               events{' '}
-              {pathname && pathname.startsWith('/events') && (
+              {pathname && !pathname.startsWith('/events') && (
                 <FiArrowUpRight color="#fff" />
               )}
             </Link>
@@ -89,7 +89,7 @@ function Navbar() {
               }}
             >
               workshops{' '}
-              {pathname && pathname.startsWith('/workshops') && (
+              {pathname && !pathname.startsWith('/workshops') && (
                 <FiArrowUpRight color="#fff" />
               )}
             </Link>
