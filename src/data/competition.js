@@ -156,7 +156,7 @@ export const competition = [
     name: 'Quiz',
     categoryId: 10,
     searchKey: 'quiz',
-    type: 'tech',
+    type: 'non-tech',
     about:
       'Are you ready to put your knowledge to the test? This quiz isn’t just about one field—it’s a thrilling mix of tech and non-tech questions! From coding to history, sports, and general knowledge, expect a mind-bending challenge that will keep you on your toes.Whether you are a tech geek, trivia lover, or just up for a fun challenge, this is your chance to show off your smarts, compete with the best, and claim victory! ',
     url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411650/QUIZ_es2veq.png',
