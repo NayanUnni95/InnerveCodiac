@@ -5,13 +5,13 @@ import styles from './CardExpand.module.css';
 
 function CardExpand() {
   const images = [
-    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740393801/competitionCard_bpiqck.jpg',
+    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740554777/competitions_hgq3fv.png',
     'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740413549/workshopCard-min_gb8d5i.png',
     'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740413550/eventsCard-min_bj9dvb.png',
   ];
   const [indexValue, setIndexValue] = useState(1);
   const [visible, setVisible] = useState(true);
-  const links = ['/competitions', '/events', '/workshops'];
+  const links = ['/competitions', '/workshops', '/events'];
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   useEffect(() => {
@@ -22,7 +22,6 @@ function CardExpand() {
     return () => clearInterval(interval);
   }, []);
   useEffect(() => {
-    // console.log(indexValue);
     setExpandedIndex(indexValue);
   }, [indexValue]);
 
@@ -31,7 +30,8 @@ function CardExpand() {
       <div className={styles.innerContainer}>
         {images.map((src, index) => (
           <Link
-            to={expandedIndex === index + 1 ? links[index + 1] : '#'}
+            // to={expandedIndex === index + 1 ? links[index + 1] : '#'}
+            to={links[index]}
             key={index + 1}
             className={styles.cardLink}
             // onClick={() => setExpandedIndex(indexValue)}

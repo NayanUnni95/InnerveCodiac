@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
-import img from '../../../assets/images/home/workshopCard.png';
+import { RiShareForwardFill } from 'react-icons/ri';
 import { workshops } from '../../../data/data';
 import transition from '../../../components/Transition/Transition';
 import styles from './IndividualWorkshop.module.css';
@@ -10,6 +10,23 @@ function IndividualWorkshop() {
   const [workshopData, setWorkshopData] = useState(null);
   const { workshopId } = useParams();
   const navigate = (url) => window.open(url, '_blank');
+  const shareItem = async (name, url) => {
+    if (navigator.share) {
+      await navigator
+        .share({
+          title: name,
+          url: url,
+        })
+        .then((res) => {
+          console.log('shared successfully');
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    } else {
+      console.log('web share api does not exist');
+    }
+  };
 
   useEffect(() => {
     setWorkshopData(workshops.find((value) => value.categoryId == workshopId));
@@ -25,7 +42,10 @@ function IndividualWorkshop() {
         </div>
         <div className={styles.compContentSection}>
           <div className={styles.contentPosterSection}>
-            <img src={img} alt={workshopData && workshopData.name} />
+            <img
+              src={workshopData && workshopData.url}
+              alt={workshopData && workshopData.name}
+            />
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>
@@ -53,10 +73,10 @@ function IndividualWorkshop() {
                   })}
                 {/* <span>for any enquires</span> */}
               </h3>
-              <h3>
+              <h3 className={styles.workNote}>
                 Note: <span>{workshopData && workshopData.note}</span>
               </h3>
-              <h3>
+              <h3 className={styles.workPrice}>
                 Price: <span>₹{workshopData && workshopData.price}</span>
               </h3>
             </div>
@@ -82,6 +102,21 @@ function IndividualWorkshop() {
                   )}{' '}
                 </button>
               </Link>
+              <button
+                id={styles.shareBtn}
+                onClick={() =>
+                  shareItem(
+                    workshopData.name,
+                    `/workshops?workshopName=${workshopData.searchKey}`
+                  )
+                }
+              >
+                Share
+                <RiShareForwardFill
+                  size={20}
+                  style={{ marginLeft: '0.3rem' }}
+                />
+              </button>
             </div>
           </div>
         </div>

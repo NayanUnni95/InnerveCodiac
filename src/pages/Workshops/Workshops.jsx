@@ -1,11 +1,27 @@
-import { Link } from 'react-router-dom';
-import img from './bob.jpg';
+import { useEffect } from 'react';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { workshops } from '../../data/data';
 import transition from '../../components/Transition/Transition';
 import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Workshops.module.css';
 
 function Workshops() {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const query = searchParams.get('workshopName');
+
+  useEffect(() => {
+    if (query) {
+      workshops.map((value) => {
+        if (value.searchKey == query) {
+          navigate(`/workshops/${value.categoryId}`);
+        }
+      });
+    }
+  }, [query]);
+  useEffect(() => {
+    console.log(query);
+  }, [query]);
   return (
     <div className={styles.workshopContainer}>
       <div className={styles.header}>

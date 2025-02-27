@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import img from './bob.jpg';
-import { competition, imgPath } from '../../data/data';
+import { useState, useEffect } from 'react';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
+import { competition } from '../../data/data';
 import transition from '../../components/Transition/Transition';
 import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Competition.module.css';
@@ -9,6 +8,10 @@ import styles from './Competition.module.css';
 function Competition() {
   const [filteredData, setFilteredData] = useState(competition);
   const [filterType, setFilterType] = useState('all');
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const query = searchParams.get('compName');
+
   const triggerFilter = (type) => {
     setFilterType(type);
     if (type == 'tech') {
@@ -19,6 +22,15 @@ function Competition() {
       setFilteredData(competition);
     }
   };
+  useEffect(() => {
+    if (query) {
+      competition.map((value) => {
+        if (value.searchKey == query) {
+          navigate(`/competitions/${value.categoryId}`);
+        }
+      });
+    }
+  }, [query]);
   return (
     <div className={styles.CompetitionContainer}>
       <div className={styles.header}>

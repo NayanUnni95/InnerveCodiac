@@ -19,8 +19,8 @@
     #7e141f,
     #5d121a
   );
-  position: absolute;
-  z-index: 3;
+  position: fixed;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: center;

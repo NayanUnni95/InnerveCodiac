@@ -10,7 +10,7 @@
 
 .sliderOut {
   position: fixed;
-  z-index: 12;
+  z-index: 30;
   top: 0;
   left: 0;
   width: 100%;
@@ -27,7 +27,7 @@
 
 .sliderOut1 {
   position: fixed;
-  z-index: 15;
+  z-index: 35;
   top: 0;
   left: 0;
   width: 100%;

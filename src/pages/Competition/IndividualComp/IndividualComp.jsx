@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
-import img from '../../../assets/images/home/workshopCard.png';
+import { RiShareForwardFill } from 'react-icons/ri';
 import transition from '../../../components/Transition/Transition';
 import { competition } from '../../../data/data';
 import styles from './IndividualComp.module.css';
@@ -9,7 +9,25 @@ import styles from './IndividualComp.module.css';
 function IndividualComp() {
   const [compData, setCompData] = useState(null);
   const { compId } = useParams();
+
   const navigate = (url) => window.open(url, '_blank');
+  const shareItem = async (name, url) => {
+    if (navigator.share) {
+      await navigator
+        .share({
+          title: name,
+          url: url,
+        })
+        .then((res) => {
+          console.log('shared successfully');
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    } else {
+      console.log('web share api does not exist');
+    }
+  };
 
   useEffect(() => {
     setCompData(competition.find((value) => value.categoryId == compId));
@@ -23,7 +41,10 @@ function IndividualComp() {
         </div>
         <div className={styles.compContentSection}>
           <div className={styles.contentPosterSection}>
-            <img src={img} alt={compData && compData.name} />
+            <img
+              src={compData && compData.url}
+              alt={compData && compData.name}
+            />
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>
@@ -54,7 +75,7 @@ function IndividualComp() {
               {/* <h3 style={{ textAlign: 'center' }}>
                 Note: <span>{compData && compData.note}</span>
               </h3> */}
-              <h3>
+              <h3 className={styles.compPrice}>
                 Price: <span>₹{compData && compData.price}</span>
               </h3>
             </div>
@@ -78,6 +99,21 @@ function IndividualComp() {
                   )}{' '}
                 </button>
               </Link>
+              <button
+                id={styles.shareBtn}
+                onClick={() =>
+                  shareItem(
+                    compData.name,
+                    `/competitions?compName=${compData.searchKey}`
+                  )
+                }
+              >
+                Share
+                <RiShareForwardFill
+                  size={20}
+                  style={{ marginLeft: '0.3rem' }}
+                />
+              </button>
             </div>
           </div>
         </div>

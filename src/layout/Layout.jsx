@@ -24,23 +24,29 @@ function Layout() {
   }, [location.pathname]);
 
   return (
-    <div className={styles.layoutContainer}>
+    <div
+      className={styles.layoutContainer}
+      style={{ overflow: visible && 'hidden' }}
+    >
       <Navbar />
       <Outlet />
-      {pathname != '/' && (
-        <div
-          id={styles.loadingWrapper}
-          style={{
-            opacity: visible ? 1 : 0,
-            transition: 'opacity 0.5s ease-out',
-            pointerEvents: visible ? 'auto' : 'none',
-          }}
-        >
-          <h1 style={{ fontSize: '3rem' }}>
-            {pathname && pathname.replace(/^\/+/, '')}
-          </h1>
-        </div>
-      )}
+      {pathname != '/' &&
+        !/^\/competitions\/\d+$/.test(pathname) &&
+        !/^\/events\/\d+$/.test(pathname) &&
+        !/^\/workshops\/\d+$/.test(pathname) && (
+          <div
+            id={styles.loadingWrapper}
+            style={{
+              opacity: visible ? 1 : 0,
+              transition: 'opacity 0.5s ease-out',
+              pointerEvents: visible ? 'auto' : 'none',
+            }}
+          >
+            <h1 style={{ fontSize: '3rem' }}>
+              {(pathname && pathname.split('/')[1]) || ''}
+            </h1>
+          </div>
+        )}
       {pathname === '/' && <FooterSecondary />}
     </div>
   );

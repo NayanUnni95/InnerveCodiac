@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { RiShareForwardFill } from 'react-icons/ri';
-import img from '../../../assets/images/home/workshopCard.png';
 import { events } from '../../../data/data';
 import transition from '../../../components/Transition/Transition';
 import styles from './IndividualEvent.module.css';
@@ -10,6 +9,23 @@ function IndividualEvent() {
   const [eventData, setEventData] = useState(null);
   const { eventId } = useParams();
   // const navigate = (url) => window.open(url, '_blank');
+  const shareItem = async (name, url) => {
+    if (navigator.share) {
+      await navigator
+        .share({
+          title: name,
+          url: url,
+        })
+        .then((res) => {
+          console.log('shared successfully');
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    } else {
+      console.log('web share api does not exist');
+    }
+  };
 
   useEffect(() => {
     setEventData(events.find((value) => value.categoryId == eventId));
@@ -23,7 +39,10 @@ function IndividualEvent() {
         </div>
         <div className={styles.compContentSection}>
           <div className={styles.contentPosterSection}>
-            <img src={img} alt={eventData && eventData.name} />
+            <img
+              src={eventData && eventData.url}
+              alt={eventData && eventData.name}
+            />
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>
@@ -31,7 +50,7 @@ function IndividualEvent() {
             </div>
             <div className={styles.contentPara}>
               <p>{eventData && eventData.about}</p>
-              <h3>
+              {/* <h3>
                 Contact Details
                 {eventData &&
                   eventData.contact.map((value, index) => {
@@ -49,17 +68,19 @@ function IndividualEvent() {
                       </div>
                     );
                   })}
-                {/* <span>for any enquires</span> */}
-              </h3>
-              <h3>
-                Note:{' '}
-                <span style={{ color: '#fe4545' }}>
-                  {eventData && eventData.note}
-                </span>
-              </h3>
-              <h3>
+                <span>for any enquires</span>
+              </h3> */}
+              {eventData && eventData.type != 'expo' && (
+                <h3>
+                  Note:{' '}
+                  <span style={{ color: '#fe4545' }}>
+                    {eventData && eventData.note}
+                  </span>
+                </h3>
+              )}
+              {/* <h3>
                 Price: <span>₹{eventData && eventData.price}</span>
-              </h3>
+              </h3> */}
             </div>
             {/* <div className={styles.contentAdditional}>
               <label>Number of Participation</label>
@@ -70,7 +91,14 @@ function IndividualEvent() {
             </div> */}
             <div className={styles.contentBtn}>
               <Link>
-                <button>
+                <button
+                  onClick={() =>
+                    shareItem(
+                      eventData.name,
+                      `/events?eventName=${eventData.searchKey}`
+                    )
+                  }
+                >
                   Share{' '}
                   <RiShareForwardFill
                     size={20}
