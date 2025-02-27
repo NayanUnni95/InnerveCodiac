@@ -66,7 +66,7 @@ function IndividualComp() {
                           fontSize: '1rem',
                         }}
                       >
-                        <span>{value.name}</span>:<Link>+91{value.no}</Link>
+                        <span>{value.name}</span>:<Link>{value.no}</Link>
                       </div>
                     );
                   })}
