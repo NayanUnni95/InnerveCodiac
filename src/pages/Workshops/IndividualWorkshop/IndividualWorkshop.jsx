@@ -49,11 +49,11 @@ function IndividualWorkshop() {
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>
-              <h2>About the event</h2>
+              <h2 className={styles.contentAbout}>About the event</h2>
             </div>
             <div className={styles.contentPara}>
               <p>{workshopData && workshopData.about}</p>
-              <h3>
+              <h3 className={styles.maindetails}>
                 Contact Details
                 {workshopData &&
                   workshopData.contact.map((value, index) => {
@@ -67,17 +67,17 @@ function IndividualWorkshop() {
                           fontSize: '1rem',
                         }}
                       >
-                        <span>{value.name}</span>:<Link>+91{value.no}</Link>
+                        <span>{value.name}</span>:<Link>{value.no}</Link>
                       </div>
                     );
                   })}
                 {/* <span>for any enquires</span> */}
               </h3>
-              <h3 className={styles.workNote}>
+              <h3 className={styles.maindetails}>
                 Note: <span>{workshopData && workshopData.note}</span>
               </h3>
-              <h3 className={styles.workPrice}>
-                Price: <span>₹{workshopData && workshopData.price}</span>
+              <h3 className={styles.maindetails}>
+                Registration Fee: <span className={styles.workMainprice}>₹{workshopData && workshopData.price}</span>
               </h3>
             </div>
             {/* <div className={styles.contentAdditional}>

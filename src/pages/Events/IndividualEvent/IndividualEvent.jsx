@@ -46,7 +46,7 @@ function IndividualEvent() {
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>
-              <h2>About the event</h2>
+              <h2 className={styles.contentAbout}>About the event</h2>
             </div>
             <div className={styles.contentPara}>
               <p>{eventData && eventData.about}</p>

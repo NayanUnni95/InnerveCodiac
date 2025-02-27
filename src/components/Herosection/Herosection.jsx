@@ -147,7 +147,7 @@ const HeroSection = () => {
       opacity: 1,
       scale: 2,
       y: -135,
-      zIndex: 5,
+      zIndex: 4,
       duration: 2,
     });
     tl.to(
@@ -155,7 +155,7 @@ const HeroSection = () => {
       { y: -90, scale: 1.5, opacity: 0.3, duration: 2 },
       '-=1.5'
     );
-    tl.to(taglineRef.current, { opacity: 1, y: -80, duration: 2 });
+    tl.to(taglineRef.current, { opacity: 1, y: -70, duration: 2 });
 
     ScrollTrigger.create({
       trigger: sectionRef.current,
