@@ -94,11 +94,9 @@ body.loading {
   }
 }
 
-
-@media (min-width > 768px){
-  #cardWidth{
+@media (min-width > 768px) {
+  #cardWidth {
     width: 100% !important;
     height: 100% !important;
   }
 }
-  

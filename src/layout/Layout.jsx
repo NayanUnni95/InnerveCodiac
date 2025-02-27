@@ -10,6 +10,18 @@ function Layout() {
   const [visible, setVisible] = useState(true);
   const location = useLocation();
 
+  const checkScrollEffect = (visible, pathname) => {
+    if (
+      !visible ||
+      pathname == '/' ||
+      /^\/competitions\/\d+$/.test(pathname) ||
+      /^\/events\/\d+$/.test(pathname) ||
+      /^\/workshops\/\d+$/.test(pathname)
+    ) {
+      return false;
+    }
+    return true;
+  };
   useEffect(() => {
     setPathname(location.pathname);
     setVisible(true);
@@ -26,7 +38,7 @@ function Layout() {
   return (
     <div
       className={styles.layoutContainer}
-      style={{ overflow: visible && 'hidden' }}
+      style={{ overflow: checkScrollEffect(visible, pathname) && 'hidden' }}
     >
       <Navbar />
       <Outlet />

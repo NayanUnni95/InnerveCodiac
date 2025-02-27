@@ -38,7 +38,11 @@ function CardExpand() {
             className={styles.cardLink}
             // onClick={() => setExpandedIndex(indexValue)}
           >
-            <Card imgSrc={src} id={styles.cardWidth} isExpanded={expandedIndex === index + 1} />
+            <Card
+              imgSrc={src}
+              id={styles.cardWidth}
+              isExpanded={expandedIndex === index + 1}
+            />
           </Link>
         ))}
       </div>

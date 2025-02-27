@@ -76,10 +76,16 @@ function IndividualComp() {
                 Note: <span>{compData && compData.note}</span>
               </h3> */}
               <h3 className={styles.compPrice}>
-                Registration Fee: <span className={styles.mainRegPrice}>₹{compData && compData.price}</span>
+                Registration Fee:{' '}
+                <span className={styles.mainRegPrice}>
+                  ₹{compData && compData.price}
+                </span>
               </h3>
               <h3 className={styles.compPrice}>
-                Price Pool: <span className={styles.mainRegPrice}>₹{compData && compData.pricePool}</span>
+                Price Pool:{' '}
+                <span className={styles.mainRegPrice}>
+                  ₹{compData && compData.pricePool}
+                </span>
               </h3>
             </div>
             {/* <div className={styles.contentAdditional}>
@@ -107,7 +113,7 @@ function IndividualComp() {
                 onClick={() =>
                   shareItem(
                     compData.name,
-                    '/competitions?compName=${compData.searchKey}'
+                    `/competitions?compName=${compData.searchKey}`
                   )
                 }
               >
