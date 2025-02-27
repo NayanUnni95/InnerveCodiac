@@ -13,6 +13,7 @@ import CountUp from '../../components/CountUp/CountUp';
 // import Footer from '../../components/FooterSecondary/Footer';
 import transition from '../../components/Transition/Transition';
 import styles from './Home.module.css';
+import CulturalContainer from '../../components/CulturalContainer/CulturalContainer';
 
 function Home() {
   return (
@@ -181,6 +182,7 @@ function Home() {
       {/* <Footer /> */}
       {/*<MarqueScroller />*/}
       <CardExpand />
+      <CulturalContainer/>
     </div>
   );
 }
