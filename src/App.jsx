@@ -11,7 +11,7 @@ import Rules from './pages/Rules/Rules';
 import Sponsors from './pages/Sponsors/Sponsors';
 import Events from './pages/Events/Events';
 import Workshops from './pages/Workshops/Workshops';
-import Hackathon from './pages/Hackathon/Hackathon';
+import Hackathon from './pages/Hackathons/Hackathon';
 import NotFound from './pages/NotFound/NotFound';
 import IndividualComp from './pages/Competition/IndividualComp/IndividualComp';
 import IndividualEvent from './pages/Events/IndividualEvent/IndividualEvent';

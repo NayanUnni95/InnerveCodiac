@@ -48,11 +48,11 @@ function IndividualComp() {
           </div>
           <div className={styles.contentDetailsSection}>
             <div className={styles.contentAbout}>
-              <h2>About the event</h2>
+              <h2 className={styles.contentAbout}>About the event</h2>
             </div>
             <div className={styles.contentPara}>
               <p>{compData && compData.about}</p>
-              <h3>
+              <h3 className={styles.compPrice}>
                 Contact Details
                 {compData &&
                   compData.contact.map((value, index) => {
@@ -66,7 +66,7 @@ function IndividualComp() {
                           fontSize: '1rem',
                         }}
                       >
-                        <span>{value.name}</span>:<Link>+91{value.no}</Link>
+                        <span>{value.name}</span>:<Link>{value.no}</Link>
                       </div>
                     );
                   })}
@@ -76,7 +76,16 @@ function IndividualComp() {
                 Note: <span>{compData && compData.note}</span>
               </h3> */}
               <h3 className={styles.compPrice}>
-                Price: <span>₹{compData && compData.price}</span>
+                Registration Fee:{' '}
+                <span className={styles.mainRegPrice}>
+                  ₹{compData && compData.price}
+                </span>
+              </h3>
+              <h3 className={styles.compPrice}>
+                Price Pool:{' '}
+                <span className={styles.mainRegPrice}>
+                  ₹{compData && compData.pricePool}
+                </span>
               </h3>
             </div>
             {/* <div className={styles.contentAdditional}>
