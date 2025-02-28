@@ -107,7 +107,7 @@ function IndividualComp() {
                 onClick={() =>
                   shareItem(
                     compData.name,
-                    '/competitions?compName=${compData.searchKey}'
+                    `/competitions?compName=${compData.searchKey}`
                   )
                 }
               >

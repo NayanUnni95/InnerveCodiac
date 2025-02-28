@@ -1,0 +1,79 @@
+.main_container {
+  background-color: rgb(22, 21, 21);
+  height: 100%;
+}
+
+.homediv {
+  border-radius: 20px;
+  margin: 10px;
+  background-color: rgb(26, 26, 26);
+  padding: 20px;
+}
+
+.hackathon-main-image {
+  height: 50vh;
+  width: 100%;
+}
+
+.hackathon_quote {
+  color: red;
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+}
+
+.hackathon_name {
+  color: white;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.hackathon_about {
+  color: rgb(118, 115, 115);
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.details {
+  border-radius: 20px;
+  margin: 10px;
+  background-color: rgb(26, 26, 26);
+  padding: 20px;
+}
+
+.details_inside {
+  border-radius: 20px;
+  margin: 10px;
+  background-color: rgb(26, 26, 26);
+  padding: 20px;
+}
+
+.text {
+  color: white;
+}
+
+.guidelines_list {
+  text-align: left;
+}
+
+.register_btn {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-top: 10px !important;
+}
+
+.welcome {
+  color: rgb(227, 146, 146);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Roboto';
+  margin-top: 30px;
+}

@@ -6,9 +6,12 @@ import styles from './CardExpand.module.css';
 function CardExpand() {
   const images = [
     /*'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740554777/competitions_hgq3fv.png',*/
-    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740653459/competitions_red_vk3xzt.png',
-    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740413549/workshopCard-min_gb8d5i.png',
-    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740653459/events_red_fgss4d.png',
+    /*'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740653459/competitions_red_vk3xzt.png',*/
+    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740723050/Artboard_27_kdvcn9.png',
+    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740723052/Artboard_25_ghjziy.png',
+    'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740723047/Artboard_26_siurmb.png',
+    /*'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740413549/workshopCard-min_gb8d5i.pgv'*/,
+    /*'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740653459/events_red_fgss4d.png',*/
     /*'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740413550/eventsCard-min_bj9dvb.png',*/
   ];
   const [indexValue, setIndexValue] = useState(1);
