@@ -24,7 +24,7 @@ export const workshops = [
     url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506206/Artboard_18_ozbbe4.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeeqfA0EUA_Q6saBg6oLkEfMuFRUdatkq-5sWzSp6cqBIAgZA/viewform?usp=header',
-    price: 75,
+    price: 50,
     isRegOpen: true,
     note: 'noting to say!',
     contact: [{ name: 'Sandeep', no: '7593096592' }],
