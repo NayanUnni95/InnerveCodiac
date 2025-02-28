@@ -1,293 +1,17 @@
-/*.main_container {
-  background-color: rgb(22, 21, 21);
-  height: 100%;
-  padding:10px;
-  padding-top:50px;
-}
-
-.homediv {
-  border-radius: 20px;
-  margin: 10px;
-  background-color: rgb(26, 26, 26);
-  padding: 20px;  
-  animation: heroFadeIn 3s ease-in-out;
-}
-
-.bgtransparent{
-  color:transparent !important;
-}
-
-.hackathon_main_image {
-  height: 50vh;
-  width: 100%;
-}
-
-.hackathon_quote {
-  color: red;
-  font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: left;
-}
-
-.hackathon_name {
-  padding-top:10px;
-  color: white;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-}
-
-.hackathon_about {
-  color: rgb(118, 115, 115);
-  font-family: 'Roboto';
-  font-size: 15px;
-  line-height: 1.4;
-}
-
-.hacktime{
-  color:red;
-  font-size: 40px;
-  text-align: center;
-  font-family: var(--primary-rajdhani);
-}
-
-.hacktime1{
-  color:#ffffff;
-  font-size: 30px;
-  text-align: center;
-  font-family: var(--primary-rajdhani);
-}
-
-.startsin{
-  color:#ffffff;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 20px;
-  padding-top: 2rem;
-}
-
-.details {
-  border-radius: 20px;
-  margin: 10px;
-  background-color: rgb(26, 26, 26);
-  padding: 20px;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range:entry 0% cover 40%;
-
-}
-
-.details_inside {
-  border-radius: 20px;
-  margin: 10px;
-  background-color: rgb(26, 26, 26);
-  padding: 20px;
-}
-
-.text {
-  color: white;
-}
-
-.guidelines_ul{
-  list-style-type: disc;
-}
-
-.guidelines_list {
-  text-align: left;
-}
-
-.timeline{
-  background-color: white;
-}
-
-.register{
-  display:flex;
-  flex-direction: column;
-}
-
-.register_btn {
-  color: black;
-  background-color: white;
-  font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border-radius: 10px;
-  width: 150px;
-  margin-bottom: 50px;
-}
-
-.text{
-  text-align: center;
-}
-
-.price{
-  font-size:40px;
-  color:white !important;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.welcome {
-  color: rgb(227, 146, 146);
-  font-size: 20px;
-  text-align: center;
-  padding-top: 10px;
-  font-family: 'Roboto';
-  margin-top: 30px;
-  padding-bottom:10px;
-}
-.register {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.countdown{
-  padding-top:5px !important;
-  text-align:center;
-  padding:10px;
-}
-
-.registerbtn{
-  text-align: center;
-}
-
-.regprice{
-  font-size:40px !important;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-@keyframes heroFadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes appear {
-  from {
-      opacity: 0;
-      scale:0.5;
-  }
-  to{
-      opacity: 1;
-      scale: 1;
-  }
-  
-}
-*/
-
-/* Hackathon Page Styles */
-/*
-.main_container {
-  background-color: #0d0d0d;
-  color: white;
-  padding: 40px;
-  font-family: 'Poppins', sans-serif;
-}
-
-.hero_section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background: linear-gradient(135deg, #1c1c1c, #333);
-  padding: 80px 50px;
-  border-radius: 20px;
-  box-shadow: 0px 4px 20px rgba(107, 106, 105, 0.978);
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.hackathon_main_image {
-  max-width: 45%;
-  height: auto;
-  border-radius: 15px;
-}
-
-.hero_content {
-  max-width: 50%;
-  text-align: left;
-}
-
-.hackathon_name {
-  font-size: 3.5rem;
-  font-weight: bold;
-  color: #ffcc00;
-  margin-top: 20px;
-  text-transform: uppercase;
-}
-
-.register_btn {
-  background: #ff6600;
-  color: white;
-  font-size: 1.3rem;
-  padding: 15px 30px;
-  border-radius: 10px;
-  cursor: pointer;
-  border: none;
-  transition: background 0.3s ease-in-out;
-}
-
-.register_btn:hover {
-  background: #ff4500;
-  transform: scale(1.05);
-}
-
-.details_section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.detail_card {
-  background: #222;
-  padding: 30px;
-  border-radius: 15px;
-  width: 350px;
-  transition: transform 0.3s ease-in-out;
-  box-shadow: 0px 4px 15px rgba(241, 241, 240, 0.3);
-}
-
-.detail_card:hover {
-  transform: translateY(-10px);
-}
-
-@media (max-width: 1024px) {
-  .hero_section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero_content {
-    max-width: 100%;
-  }
-
-  .hackathon_main_image {
-    max-width: 80%;
-  }
-}
-
-@media (max-width: 768px) {
-  .details_section {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-*/
-
 /* General Styles */
 .main_container {
   background-color: #0d0d0d;
   color: white;
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
   font-family: 'Poppins', sans-serif;
   max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 
 .hero_section {
   display: flex;
@@ -307,7 +31,7 @@
 }
 
 .hackathon_name {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #facc15;
   text-transform: uppercase;
@@ -329,7 +53,6 @@
   margin-bottom: 10px;
 }
 
-
 .countdown_section {
   display: flex;
   justify-content: center;
@@ -341,13 +64,17 @@
   max-width: 600px;
 }
 
-.ulstyle{
-  list-style-type: disc;
+.ulstyle {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
 }
 
 .countdown_wrapper {
   text-align: center;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 .startsin {
@@ -358,7 +85,6 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
-
 
 .register_btn {
   background: #ff6600;
@@ -380,18 +106,26 @@
 
 /* Details Section */
 .details_section {
+  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 40px;
-  margin-top: 50px;
+  padding: 1rem;
 }
 
 .detail_card {
   background: #222;
-  padding: 30px;
+  /* padding: 30px; */
   border-radius: 15px;
-  width: 350px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0 2rem 0;
   transition: transform 0.3s ease-in-out;
   box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.1);
 }
@@ -399,7 +133,6 @@
 .detail_card:hover {
   transform: translateY(-10px);
 }
-
 
 .contact_section {
   text-align: center;
@@ -440,13 +173,18 @@
   }
 }
 
-.regprice{
-  color:orange;
+.regprice {
+  color: orange;
   font-size: 30px;
 }
 
-.price{
-  color:rgb(255, 255, 255);
-  font-size:30px;
+.price {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
   font-family: var(--primary-rampart);
+}
+@media (max-width: 425px) {
+  .details_section {
+    width: 80%;
+  }
 }

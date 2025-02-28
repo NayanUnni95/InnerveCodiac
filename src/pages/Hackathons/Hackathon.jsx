@@ -39,14 +39,12 @@ function Hackathon() {
           />
         </div>
       </section>
-
       <section className={styles.countdown_section}>
         <div className={styles.countdown_wrapper}>
           <h2 className={styles.startsin}> STARTS IN:</h2>
           <Countdown2 />
         </div>
       </section>
-
       <section className={styles.details_section}>
         <div className={styles.detail_card}>
           <h3>💰 Registration Fee</h3>
@@ -69,11 +67,9 @@ function Hackathon() {
           <p className={styles.price}>₹10,000+</p>
         </div>
       </section>
-
       <section className={styles.faq_section}>
         <FAQSection />
       </section>
-
       <section className={styles.contact_section}>
         <h2 className={styles.contact_title}>📞 Contact Us</h2>
         <div className={styles.contact_details}>
