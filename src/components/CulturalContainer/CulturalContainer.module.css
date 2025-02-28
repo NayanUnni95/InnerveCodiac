@@ -2,28 +2,66 @@
   width: 100%;
 }
 .culturalInnerContainer {
+  /* height: 100vh; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3rem;
+  margin: 0.7rem;
+  position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.4rem;
-  margin: 1rem;
+  gap: 0.2rem;
   position: relative;
+}
+.gridContainer:first-child {
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 90%);
+  transform: translateY(22%);
+}
+.gridContainer:nth-child(2) {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 73%);
+}
+.gridContainer:nth-child(3) {
+  /* clip-path: polygon(0 73%, 100% 100%, 100% 0, 0 15%, 0 15%); */
+  /* clip-path: polygon(0 10%, 100% 39%, 100% 100%, 0 90%); */
+  /* clip-path: polygon(0 0, 100% 0, 100% 75%, 0 90%); */
+  /* clip-path: polygon(0 73%, 100% 100%, 100% 0%, 0 15%); */
+  clip-path: polygon(0 10%, 100% 39%, 100% 100%, 0 100%);
+  transform: translateY(-35%);
+}
+.gridContainer:nth-child(4) {
+  transform: translateY(-35%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 90%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 75%, 0 90%); */
 }
 .culturalPhotoCell {
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: slide-in-out 4s infinite;
+  height: 100%;
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* animation: slide-in-out 4s infinite; */
 }
 .culturalPhotoCell img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+/* @media (max-width: 425px) { */
+/* .gridContainer:nth-child(3) {
+    display: none;
+  } */
+/* } */
 @media (min-width: 768px) {
-  .culturalInnerContainer {
+  .gridContainer {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .culturalPhotoCell {
@@ -31,9 +69,9 @@
   }
 }
 @media (min-width: 1024px) {
-  .culturalInnerContainer {
+  /* .gridContainer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+  } */
   .culturalPhotoCell {
     height: 12rem;
   }
@@ -66,10 +104,12 @@
   height: 100%;
   /* background-color: yellow; */
   position: absolute;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  /* display: none; */
 }
 .pro {
   -webkit-text-stroke: 5px black;

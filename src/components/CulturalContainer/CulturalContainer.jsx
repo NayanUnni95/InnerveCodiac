@@ -12,24 +12,18 @@ import img10 from '../../assets/images/culti/mubasok/10.png';
 import img11 from '../../assets/images/culti/mubasok/11.png';
 import img12 from '../../assets/images/culti/mubasok/12.png';
 import styles from './CulturalContainer.module.css';
+import ImageCarousel from '../ImageCarousel/ImageCarousel';
 
 function CulturalContainer() {
-  const data = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-    img8,
-    img9,
-    img10,
-    img11,
-    img12,
-  ];
-  const [currentImages, setCurrentImages] = useState(data.slice(0, 14));
+  const [width, setWidth] = useState(window.screen.width);
+  window.addEventListener('resize', () => setWidth(window.screen.width));
   const [index, setIndex] = useState(0);
+  const data = width <= 425 ? [img1, img2] : [img1, img2, img3];
+  const row =
+    width <= 425
+      ? [img1, img2, img3, img4, img5, img6]
+      : [img1, img2, img3, img4];
+  const [currentImages, setCurrentImages] = useState(data.slice(0, 4));
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -41,22 +35,34 @@ function CulturalContainer() {
 
     return () => clearInterval(interval);
   }, [index]);
+  useEffect(() => {
+    console.log(width);
+  }, [width]);
   return (
     <div className={styles.culturalContainer}>
       <div className={styles.culturalInnerContainer}>
-        {currentImages.map((value, index) => {
+        {row.map((value, index1) => {
           return (
-            <div className={styles.container} key={index}>
-              <div className={styles.culturalPhotoCell}>
-                <img src={value} alt="" className={styles.animatedImg} />
-              </div>
+            <div className={styles.gridContainer} key={index1}>
+              {data.map((value, index) => {
+                return (
+                  <div className={styles.container} key={index}>
+                    <div className={styles.culturalPhotoCell}>
+                      <ImageCarousel
+                        imgSet={[img1, img2, img3, img4]}
+                        dir={index1 % 2 == 0 ? 'rtl' : 'ltr'}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           );
         })}
         <div className={styles.textArea}>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <span className={styles.pro}>PRO</span>
-            <span className={styles.show}>SHOW</span>
+            <span className={styles.pro}>CULT</span>
+            <span className={styles.show}>EVE</span>
           </div>
           <div className={styles.name}>
             <h1>Mubasok</h1>
