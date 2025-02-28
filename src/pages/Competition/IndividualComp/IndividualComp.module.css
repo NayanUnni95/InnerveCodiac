@@ -76,7 +76,8 @@ h2 {
   margin: 2rem 1rem 0rem 1rem;
 }
 .contentAbout {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: var(--primary-oswald) !important;
   /* letter-spacing: -3px; */
 }
 /* .contentAbout h2 {
@@ -188,7 +189,13 @@ a {
     width: 100%;
   }
 }
-
-.compPrice{
+.compPrice {
   padding-top: 5px;
+  font-size: 17px !important;
+  font-family: var(--primary-outfit);
+  padding-top: 5px;
+}
+
+.mainRegPrice {
+  font-size: 16px !important;
 }

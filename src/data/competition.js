@@ -10,7 +10,10 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfTIHPdkIU4QXN_r7Xzd6CWhZWMa2HB39hrunBa8N8mldt_yQ/viewform?usp=dialog',
     isRegOpen: true,
-    price: '50',
+    price: '40 (per team)',
+    pricePool: '1000',
+    guidelines:
+      '.A team of 2,. Do not share flags and solutions,.Participants should bring 1 laptop per team,.Flags must be submitted exactly when they are found',
     note: 'noting to say!',
     contact: [
       { name: 'Sreerag', no: '9400966092' },
@@ -29,6 +32,7 @@ export const competition = [
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
     isRegOpen: true,
     price: '40',
+    pricePool: '500',
     note: 'noting to say!',
     contact: [
       { name: 'Karthik Suresh', no: '7034371668' },
@@ -46,7 +50,10 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeJAmmU2nRATcENCFe3zZ9L9lTYRP_tHubuR8m87mRC9oI9QQ/viewform?usp=dialog',
     isRegOpen: true,
-    price: '50',
+    price: '40',
+    pricePool: '1000',
+    guidelines:
+      '.Can you desired programming language<br/> .Conducted in Hackerrank. Participants are advised to create an account if not having.<br/> . Your solution must follow a logical approach, not just print expected results.',
     note: 'noting to say!',
     contact: [
       { name: 'Geo', no: '6282551190' },
@@ -64,8 +71,11 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
     isRegOpen: true,
-    price: '50',
+    price: '40',
+    pricePool: '1000',
     note: 'noting to say!',
+    guidelines:
+      '.can code in C or Python <br/> .if anyone uses an online compiler other than the platform provided,they will be disqualified',
     contact: [
       { name: 'Vignesh', no: '8075091063' },
       { name: 'Adarsh', no: '9778080480' },
@@ -83,6 +93,7 @@ export const competition = [
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
     isRegOpen: true,
     price: '40',
+    pricePool: '500',
     note: 'noting to say!',
     contact: [{ name: 'jeswin', no: '7012721738' }],
   },
@@ -97,7 +108,8 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLScvIJPkILR0RmKptaue_HRefhXyWFT68AH24cm5t6U3UgxAeA/viewform?usp=dialog',
     isRegOpen: true,
-    price: '200',
+    price: '150',
+    pricePool: '1500',
     note: 'noting to say!',
     contact: [{ name: 'Jeswin', no: '7012721738' }],
   },
@@ -112,7 +124,10 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
     isRegOpen: true,
-    price: '50',
+    price: '40',
+    pricePool: '1000',
+    guidelines:
+      '.Two levels of 45  and 30 mins.<br/> . Conducted in C language <br/> .Errors need to be corrected in the allowed duration',
     note: 'noting to say!',
     contact: [
       { name: 'Amal J P', no: '9744835021' },
@@ -130,7 +145,8 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
     isRegOpen: true,
-    price: '200',
+    price: '150',
+    pricePool: '1500',
     note: 'noting to say!',
     contact: [{ name: 'Jeswin', no: '7012721738' }],
   },
@@ -146,6 +162,7 @@ export const competition = [
       'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '60',
+    pricePool: '1000',
     note: 'noting to say!',
     contact: [
       { name: 'Rithul', no: '9061723728' },
@@ -163,7 +180,8 @@ export const competition = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
     isRegOpen: true,
-    price: '60 (per team)',
+    price: '50 (per team)',
+    pricePool: '800',
     note: 'noting to say!',
     contact: [
       { name: 'Vaishnav', no: '7025208405' },

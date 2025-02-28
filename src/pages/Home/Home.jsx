@@ -24,7 +24,7 @@ function Home() {
         <Countdown />
       </div>
       <ScrollVelocity
-        texts={['March 6, 7 and 8 ✦ Innerve ✦ Codiac ✦ CEM ']}
+        texts={['March 6, 7, 8 ✦ Innerve ✦ Codiac ✦ CEM ']}
         velocity={60}
       />
       {/* <AboutUS /> */}
@@ -77,7 +77,7 @@ function Home() {
                     <>
                       <CountUp
                         from={0}
-                        to={500}
+                        to={1000}
                         separator=","
                         direction="up"
                         duration={1}

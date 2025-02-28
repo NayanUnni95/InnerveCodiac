@@ -76,7 +76,8 @@ h2 {
   margin: 2rem 1rem 0rem 1rem;
 }
 .contentAbout {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: var(--primary-oswald);
   /* letter-spacing: -3px; */
 }
 /* .contentAbout h2 {

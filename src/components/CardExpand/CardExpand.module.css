@@ -23,7 +23,7 @@ body.loading {
   display: flex;
   gap: 1.25rem;
   margin: 0 auto;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem !important;
   /* padding: 0 20px; */
 }
 
@@ -102,3 +102,14 @@ body.loading {
   }
 }
   */
+/* <<<<<<< HEAD */
+
+/* @media (min-width : 768px){
+  .innerContainer{
+/* ======= */
+/* @media (min-width > 768px) {
+  #cardWidth {
+    width: 100% !important;
+    height: 100% !important;
+  }
+} */
