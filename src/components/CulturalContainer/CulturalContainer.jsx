@@ -61,12 +61,13 @@ function CulturalContainer() {
         })}
         <div className={styles.textArea}>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <span className={styles.pro}>CULT</span>
+            <span className={styles.pro}>CULt</span>
             <span className={styles.show}>EVE</span>
           </div>
           <div className={styles.name}>
-            <h1>Mubasok</h1>
+            <h1>Mubas Ok</h1>
             <h1 className={styles.name2}>Rohith</h1>
+            <h1 className={styles.name3}>Zain Huzain</h1>
           </div>
           <div className={styles.date}>
             <h1>Mar 7</h1>

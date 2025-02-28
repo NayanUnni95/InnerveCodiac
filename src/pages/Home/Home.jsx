@@ -68,6 +68,7 @@ function Home() {
           </ScrollReveal>
         </div>
       </div>
+      <CulturalContainer />
       <div>
         <div className={styles.countUpContainer}>
           <div className={styles.countUpInnerContainer}>
@@ -181,9 +182,8 @@ function Home() {
         </div>
       </div>
       {/* <Footer /> */}
-      {/*<MarqueScroller />*/}
+      {/* <MarqueScroller /> */}
       <CardExpand />
-      <CulturalContainer />
       {/* <ImageCarousel/> */}
     </div>
   );

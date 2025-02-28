@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'pricedown';
+  src: url('../../assets/fonts/Pricedown\ Bl.otf');
+}
 .culturalContainer {
   width: 100%;
 }
@@ -55,11 +59,23 @@
   height: 100%;
   object-fit: cover;
 }
-/* @media (max-width: 425px) { */
-/* .gridContainer:nth-child(3) {
-    display: none;
-  } */
-/* } */
+@media (max-width: 425px) {
+  .gridContainer:first-child {
+    transform: translateY(50%);
+  }
+  .gridContainer:nth-child(2) {
+    /* display: none; */
+    transform: translateY(30%);
+  }
+  .gridContainer:nth-child(3) {
+    /* display: none; */
+    transform: translateY(0%);
+  }
+  .gridContainer:nth-child(4) {
+    /* display: none; */
+    transform: translateY(0%);
+  }
+}
 @media (min-width: 768px) {
   .gridContainer {
     grid-template-columns: 1fr 1fr 1fr;
@@ -121,14 +137,15 @@
   -webkit-text-stroke: 4px black;
   font-size: 6rem;
   font-family: 'Badeen Display', serif;
-  line-height: 1rem;
+  line-height: 0rem;
 }
 .name {
   color: white;
   -webkit-text-stroke: 2px rgb(13, 0, 87);
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Pacifico', serif;
-  /* line-height: 4rem; */
+  /* line-height: -10rem; */
+  margin-top: 1rem;
   text-transform: capitalize;
 }
 .name2 {
