@@ -94,11 +94,15 @@ body.loading {
   }
 }
 
+/* <<<<<<< HEAD */
 
-@media (min-width : 768px){
+/* @media (min-width : 768px){
   .innerContainer{
+/* ======= */
+/* @media (min-width > 768px) {
+  #cardWidth {
+>>>>>>> develop
     width: 100% !important;
     height: 100% !important;
   }
-}
-  
+} */

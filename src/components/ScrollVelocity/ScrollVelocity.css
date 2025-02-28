@@ -13,7 +13,7 @@
   letter-spacing: -0.02em;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
   /*background:none;*/
-  color:white ;
+  color: white;
 }
 
 .scroller span {
@@ -25,7 +25,7 @@
     font-size: 5rem;
     line-height: 5rem;
   }
-} 
+}
 
 @media (min-width: 768px) {
   .scroller {
@@ -38,6 +38,5 @@
   .scroller {
     font-size: 3rem;
     line-height: 5rem;
-   
   }
 }

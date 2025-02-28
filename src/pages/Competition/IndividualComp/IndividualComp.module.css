@@ -190,15 +190,13 @@ a {
   }
 }
 
-.compPrice{
+.compPrice {
   padding-top: 5px;
   font-size: 17px !important;
   font-family: var(--primary-outfit);
   padding-top: 5px;
 }
 
-.mainRegPrice{
+.mainRegPrice {
   font-size: 16px !important;
 }
-
-

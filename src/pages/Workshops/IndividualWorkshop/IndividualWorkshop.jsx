@@ -77,7 +77,10 @@ function IndividualWorkshop() {
                 Note: <span>{workshopData && workshopData.note}</span>
               </h3>
               <h3 className={styles.maindetails}>
-                Registration Fee: <span className={styles.workMainprice}>₹{workshopData && workshopData.price}</span>
+                Registration Fee:{' '}
+                <span className={styles.workMainprice}>
+                  ₹{workshopData && workshopData.price}
+                </span>
               </h3>
             </div>
             {/* <div className={styles.contentAdditional}>
