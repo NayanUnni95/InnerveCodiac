@@ -1,19 +1,22 @@
+import { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import { useEffect } from 'react';
 
-const ImageCarousel = ({ imgSet, dir }) => {
+const ImageCarousel = ({ imgSet, dir, animation }) => {
+  useEffect(() => {
+    console.log(animation);
+  }, [animation]);
   return (
     <div>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={10}
         slidesPerView={1}
-        autoplay={{ delay: 2500 }}
+        autoplay={{ delay: animation && 2500 }}
         speed={1500}
         loop={true}
         dir={dir}
