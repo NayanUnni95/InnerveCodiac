@@ -12,7 +12,7 @@ export const competition = [
     isRegOpen: true,
     price: '40 (per team)',
     pricePool: '1000',
-    guidelines:'.A team of 2,. Do not share flags and solutions,.Participants should bring 1 laptop per team,.Flags must be submitted exactly when they are found',
+    guidelines:'A team of 2. Do not share flags and solutions. Participants should bring 1 laptop per team. Flags must be submitted exactly when they are found',
     note: 'noting to say!',
     contact: [
       { name: 'Sreerag', no: '9400966092' },
@@ -51,7 +51,7 @@ export const competition = [
     isRegOpen: true,
     price: '40',
     pricePool: '1000',
-    guidelines:'.Can you desired programming language, .Conducted in Hackerrank, . Participants are advised to create an account if not having., . Your solution must follow a logical approach, not just print expected results.',
+    guidelines:'Can use desired programming language. Conducted in Hackerrank. Participants are advised to create an account if not having. Your solution must follow a logical approach, not just print expected results.',
     note: 'noting to say!',
     contact: [
       { name: 'Geo', no: '6282551190' },
@@ -72,7 +72,7 @@ export const competition = [
     price: '40',
     pricePool: '1000',
     note: 'noting to say!',
-    guidelines:'.can code in C or Python., .if anyone uses an online compiler other than the platform provided,they will be disqualified',
+    guidelines:'can code in C or Python. If anyone uses an online compiler other than the platform provided,they will be disqualified',
     contact: [
       { name: 'Vignesh', no: '8075091063' },
       { name: 'Adarsh', no: '9778080480' },
@@ -123,7 +123,7 @@ export const competition = [
     isRegOpen: true,
     price: '40',
     pricePool: '1000',
-    guidelines:'.Two levels of 45  and 30 mins., . Conducted in C language., .Errors need to be corrected in the allowed duration',
+    guidelines:'Two levels of 45 and 30 mins. Conducted in C language. Errors need to be corrected in the allowed duration',
     note: 'noting to say!',
     contact: [
       { name: 'Amal J P', no: '9744835021' },
@@ -171,7 +171,7 @@ export const competition = [
     searchKey: 'quiz',
     type: 'non-tech',
     about:
-      'Are you ready to put your knowledge to the test? This quiz isn’t just about one field—it’s a thrilling mix of tech and non-tech questions! From coding to history, sports, and general knowledge, expect a mind-bending challenge that will keep you on your toes.Whether you are a tech geek, trivia lover, or just up for a fun challenge, this is your chance to show off your smarts, compete with the best, and claim victory! ',
+      'Are you ready to put your knowledge to the test? This quiz isn’t just about one field—it’s a thrilling mix of tech and non-tech questions! From technology to current affairs, sports, and general knowledge, expect a mind-bending challenge that will keep you on your toes.Whether you are a tech geek, trivia lover, or just up for a fun challenge, this is your chance to show off your smarts, compete with the best, and claim victory! ',
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734501/quiz_red_tlel23.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
