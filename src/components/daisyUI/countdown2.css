@@ -1,143 +1,136 @@
-
 .countdown-wrapper {
-    text-align: center;
-    padding: 30px 15px;
-    /* background-color: rgba(0, 0, 0, 0.615); */
-    /* background-color: 0px 8px 30px rgba(255, 255, 255, 0); */
-    background-color: #0d0d0d;
-    border-radius:10px;
-    
-  }
-  
-  .countdown-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 15px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-    animation: glow 1.5s infinite alternate;
-  }
-  
-  .countdown-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .time-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background: rgba(105, 105, 105, 0.1); */
-    background-color:0px 8px 30px rgba(255, 255, 255, 0.05);;
-    padding: 15px;
-    margin:5px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(14, 14, 14, 0.978);
-    text-transform: uppercase;
-    width: 110px;
-    min-width: 90px;
-    text-align: center;
-    height: 100px; 
-  }
-  
-  
-  .time-flip {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  
-  .time-value {
-    font-size: 50px;
-    font-weight: bold;
-    font-family: "Bungee", sans-serif;
-    color: #fff;
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  }
-  
-  
-  .time-label {
-    font-size: 15px;
-    font-weight: 600;
-    color: #ddd;
-    margin-top: 5px;
-  }
-  
-  
-  .animate-change {
-    animation: slideUp 0.5s ease-in-out;
-  }
-  
- 
-  @keyframes slideUp {
-    0% {
-      transform: translateY(10px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
+  text-align: center;
+  padding: 30px 15px;
+  /* background-color: rgba(0, 0, 0, 0.615); */
+  /* background-color: 0px 8px 30px rgba(255, 255, 255, 0); */
+  background-color: #0d0d0d;
+  border-radius: 10px;
+}
 
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-    }
-    to {
-      text-shadow: 0 0 20px rgba(255, 255, 255, 1);
-    }
+.countdown-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  animation: glow 1.5s infinite alternate;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: rgba(105, 105, 105, 0.1); */
+  background-color: 0px 8px 30px rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(14, 14, 14, 0.978);
+  text-transform: uppercase;
+  width: 110px;
+  min-width: 90px;
+  text-align: center;
+  height: 100px;
+}
+
+.time-flip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.time-value {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Bungee', sans-serif;
+  color: #fff;
+  transition:
+    transform 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+}
+
+.time-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.animate-change {
+  animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .countdown-container {
-      gap: 12px;
-    }
-  
-    .time-box {
-      width: 90px;
-      min-width: 80px;
-      padding: 12px;
-      height: 90px; /*for smaller screens */
-    }
-  
-    .time-value {
-      font-size: 32px;
-    }
-  
-    .time-label {
-      font-size: 12px;
-    }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  @media (max-width: 480px) {
-    .countdown-container {
-      gap: 8px;
-    }
-  
-    .time-box {
-      width: 80px;
-      min-width: 70px;
-      padding: 10px;
-      height: 80px;
-    }
-  
-    .time-value {
-      font-size: 28px;
-    }
-  
-    .time-label {
-      font-size: 10px;
-    }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
   }
-  
+  to {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .countdown-container {
+    gap: 12px;
+  }
+
+  .time-box {
+    width: 90px;
+    min-width: 80px;
+    padding: 12px;
+    height: 90px; /*for smaller screens */
+  }
+
+  .time-value {
+    font-size: 32px;
+  }
+
+  .time-label {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-container {
+    gap: 8px;
+  }
+
+  .time-box {
+    width: 80px;
+    min-width: 70px;
+    padding: 10px;
+    height: 80px;
+  }
+
+  .time-value {
+    font-size: 28px;
+  }
+
+  .time-label {
+    font-size: 10px;
+  }
+}

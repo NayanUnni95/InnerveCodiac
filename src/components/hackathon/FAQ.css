@@ -1,67 +1,66 @@
 .faq-container {
-    max-width: 700px;
-    margin: 50px auto;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #fff;
-  }
-  
-  h2 {
-    font-size: 28px;
-    color: #7f96a3;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .faq-item {
-    background-color: #1E1E1E;
-    border: 1px solid #FFD700;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .faq-question {
-    width: 100%;
-    padding: 15px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #e8d87d;
-    text-align: left;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    outline: none;
-  }
-  
-  .faq-question:hover {
-    background-color: rgba(216, 203, 130, 0.2);
-  }
-  
-  .faq-answer {
-    max-height: 0;
-    padding: 0 20px;
-    font-size: 16px;
-    color: #ccc;
-    text-align: left;
-    overflow: hidden;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
-  }
-  
-  .faq-item.active .faq-answer {
-    max-height: 150px;
-  } 
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
 
+h2 {
+  font-size: 28px;
+  color: #7f96a3;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-  /*****/
+.faq-item {
+  background-color: #1e1e1e;
+  border: 1px solid #ffd700;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
 
-  
+.faq-question {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e8d87d;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.faq-question:hover {
+  background-color: rgba(216, 203, 130, 0.2);
+}
+
+.faq-answer {
+  max-height: 0;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #ccc;
+  text-align: left;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition:
+    max-height 0.4s ease-in-out,
+    padding 0.4s ease-in-out;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 150px;
+}
+
+/*****/

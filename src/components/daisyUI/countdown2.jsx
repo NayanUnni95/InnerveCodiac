@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
-import './countdown2.css'
+import { useState, useEffect } from 'react';
+import './countdown2.css';
 
 function Countdown2() {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("March 8, 2025 08:00:00").getTime();
+    const eventDate = new Date('March 8, 2025 08:00:00').getTime();
     const now = new Date().getTime();
     const difference = eventDate - now;
 

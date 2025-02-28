@@ -288,7 +288,6 @@
   margin: 0 auto;
 }
 
-
 .hero_section {
   display: flex;
   flex-wrap: wrap;
@@ -329,7 +328,6 @@
   margin-bottom: 10px;
 }
 
-
 .countdown_section {
   display: flex;
   justify-content: center;
@@ -341,13 +339,13 @@
   max-width: 600px;
 }
 
-.ulstyle{
+.ulstyle {
   list-style-type: disc;
 }
 
 .countdown_wrapper {
   text-align: center;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 .startsin {
@@ -358,7 +356,6 @@
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
-
 
 .register_btn {
   background: #ff6600;
@@ -400,7 +397,6 @@
   transform: translateY(-10px);
 }
 
-
 .contact_section {
   text-align: center;
   padding: 50px 0;
@@ -440,13 +436,13 @@
   }
 }
 
-.regprice{
-  color:orange;
+.regprice {
+  color: orange;
   font-size: 30px;
 }
 
-.price{
-  color:rgb(255, 255, 255);
-  font-size:30px;
+.price {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
   font-family: var(--primary-rampart);
 }
