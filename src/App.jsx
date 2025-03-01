@@ -16,6 +16,7 @@ import NotFound from './pages/NotFound/NotFound';
 import IndividualComp from './pages/Competition/IndividualComp/IndividualComp';
 import IndividualEvent from './pages/Events/IndividualEvent/IndividualEvent';
 import IndividualWorkshop from './pages/Workshops/IndividualWorkshop/IndividualWorkshop';
+import ImageCarousel from './components/ImageCarousel/ImageCarousel';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             {/* <Route path="/rules" element={<Rules />} /> */}
             {/* <Route path="/sponsors" element={<Sponsors />} /> */}
           </Route>
+          <Route path="/img" element={<ImageCarousel />} />
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>

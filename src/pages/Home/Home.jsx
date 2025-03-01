@@ -13,6 +13,8 @@ import CountUp from '../../components/CountUp/CountUp';
 // import Footer from '../../components/FooterSecondary/Footer';
 import transition from '../../components/Transition/Transition';
 import styles from './Home.module.css';
+import CulturalContainer from '../../components/CulturalContainer/CulturalContainer';
+import ImageCarousel from '../../components/ImageCarousel/ImageCarousel';
 
 function Home() {
   return (
@@ -66,6 +68,7 @@ function Home() {
           </ScrollReveal>
         </div>
       </div>
+      <CulturalContainer />
       <div>
         <div className={styles.countUpContainer}>
           <div className={styles.countUpInnerContainer}>
@@ -179,8 +182,9 @@ function Home() {
         </div>
       </div>
       {/* <Footer /> */}
-      {/*<MarqueScroller />*/}
+      {/* <MarqueScroller /> */}
       <CardExpand />
+      {/* <ImageCarousel/> */}
     </div>
   );
 }

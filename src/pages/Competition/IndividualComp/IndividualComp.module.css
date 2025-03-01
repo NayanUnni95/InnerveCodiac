@@ -199,3 +199,14 @@ a {
 .mainRegPrice {
   font-size: 16px !important;
 }
+.guidelines {
+  text-align: left !important;
+  padding-top: 5px;
+  color: #ffffff !important;
+  font-family: var(--primary-outfit);
+}
+
+.uldesign {
+  list-style: disc;
+  color: #945c02d5;
+}

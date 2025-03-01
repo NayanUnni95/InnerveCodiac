@@ -6,14 +6,14 @@ export const competition = [
     type: 'tech',
     about:
       'Think like a hacker, act like a defender! CTF challenges your cybersecurity skills through a series of real-world hacking scenarios. Solve cryptography puzzles, reverse-engineer programs, and exploit vulnerabilities to capture the hidden flags. Do you have what it takes to outsmart the system? Prove it on the battleground!',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/CTF_RED_ukxu8t.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734501/CTF_RED_kopvca.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfTIHPdkIU4QXN_r7Xzd6CWhZWMa2HB39hrunBa8N8mldt_yQ/viewform?usp=dialog',
     isRegOpen: true,
     price: '40 (per team)',
     pricePool: '1000',
     guidelines:
-      '.A team of 2,. Do not share flags and solutions,.Participants should bring 1 laptop per team,.Flags must be submitted exactly when they are found',
+      'A team of 2. Do not share flags and solutions. Participants should bring 1 laptop per team. Flags must be submitted exactly when they are found',
     note: 'noting to say!',
     contact: [
       { name: 'Sreerag', no: '9400966092' },
@@ -27,7 +27,7 @@ export const competition = [
     type: 'non-tech',
     about:
       'Unleash your creativity and command over AI! In this challenge, your task is to craft the most precise, innovative, and powerful prompts to generate stunning AI-driven outputs—be it text, images, or code. Think you can make AI dance to your words? Show off your prompt engineering skills and watch the magic unfold!',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/WhatsApp_Image_2025-02-25_at_9.35.23_PM_fnyvsv.jpg',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734498/ai_prompt_red_tc2xhh.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
     isRegOpen: true,
@@ -46,14 +46,14 @@ export const competition = [
     type: 'tech',
     about:
       'Instead of solving a problem with code, you will be given inputs and their outputs—your task is to decode the hidden logic and recreate the original code.  If you enjoy pattern recognition and algorithmic thinking, this challenge is for you!  Think you can crack the logic? Join us and prove it!',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506208/REVERSE_CODING_RED_thcigh.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734472/REVERSE_CODING_RED_wcvfd4.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeJAmmU2nRATcENCFe3zZ9L9lTYRP_tHubuR8m87mRC9oI9QQ/viewform?usp=dialog',
     isRegOpen: true,
     price: '40',
     pricePool: '1000',
     guidelines:
-      '.Can you desired programming language<br/> .Conducted in Hackerrank. Participants are advised to create an account if not having.<br/> . Your solution must follow a logical approach, not just print expected results.',
+      'Can use desired programming language. Conducted in Hackerrank. Participants are advised to create an account if not having. Your solution must follow a logical approach, not just print expected results.',
     note: 'noting to say!',
     contact: [
       { name: 'Geo', no: '6282551190' },
@@ -67,7 +67,7 @@ export const competition = [
     type: 'tech',
     about:
       'Sharpen your logic, master your algorithms, and race against time in the ultimate coding face-off! Tackle challenging problems that test your data structures, optimization, and problem-solving prowess. Compete with the best minds, crack complex problems, and climb the leaderboard. Do you have the coding edge to take the crown?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411590/COMPETIITVE_CODING_jfsixa.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734506/COmpetitve_coding_red_xabdsw.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
     isRegOpen: true,
@@ -75,7 +75,7 @@ export const competition = [
     pricePool: '1000',
     note: 'noting to say!',
     guidelines:
-      '.can code in C or Python <br/> .if anyone uses an online compiler other than the platform provided,they will be disqualified',
+      'can code in C or Python. If anyone uses an online compiler other than the platform provided,they will be disqualified',
     contact: [
       { name: 'Vignesh', no: '8075091063' },
       { name: 'Adarsh', no: '9778080480' },
@@ -88,7 +88,7 @@ export const competition = [
     type: 'non-tech',
     about:
       'Have a story to tell, research to share, or an opinion that needs to be heard? The Journal Competition is your chance to express, explore, and inspire through the power of words! Whether it is technology, science, social issues, or creative storytelling, showcase your writing skills, analytical thinking, and unique perspectives.',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740571482/litrature_ukcwiq.jpg',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734504/Artboard_20_njy60s.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
     isRegOpen: true,
@@ -104,9 +104,9 @@ export const competition = [
     type: 'non-tech',
     about:
       'Feel the adrenaline rush as you take control of high-speed remote-controlled cars and race against the best! Precision, reflexes, and control will be your keys to victory as you navigate sharp turns, dodge obstacles, and speed past your competitors. Do you have the skill to dominate the track and take the checkered flag?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/RC_bwwrgl.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/RC_RACING_dlfyka.png',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLScvIJPkILR0RmKptaue_HRefhXyWFT68AH24cm5t6U3UgxAeA/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '150',
     pricePool: '1500',
@@ -120,14 +120,14 @@ export const competition = [
     type: 'tech',
     about:
       'A single misplaced semicolon can break an entire program—can you spot and fix the errors before time runs out? Test your problem-solving skills in this high-pressure debugging showdown! Whether it’s syntax slip-ups, logical traps, or runtime nightmares, you’ll need speed, precision, and a sharp eye for detail to come out on top. Are you ready to squash those bugs?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411614/DEBUGGING_uegdia.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/debugging_dxwldh.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
     isRegOpen: true,
     price: '40',
     pricePool: '1000',
     guidelines:
-      '.Two levels of 45  and 30 mins.<br/> . Conducted in C language <br/> .Errors need to be corrected in the allowed duration',
+      'Two levels of 45 and 30 mins. Conducted in C language. Errors need to be corrected in the allowed duration',
     note: 'noting to say!',
     contact: [
       { name: 'Amal J P', no: '9744835021' },
@@ -141,9 +141,9 @@ export const competition = [
     type: 'non-tech',
     about:
       'It’s football, but with robots! Control your team of bots and strategize to outplay your opponents, score goals, and claim victory. Whether you’re a robotics enthusiast or just love the thrill of competition, this event is the perfect blend of tech and sportsmanship. Get ready to dribble, pass, and score—robot style!',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411703/ROBO_FOOTBALL_ezlv2x.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/ROBO_FOOTBALL_klxhs9.png',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '150',
     pricePool: '1500',
@@ -157,9 +157,9 @@ export const competition = [
     type: 'non-tech',
     about:
       'Decode cryptic clues, solve mind-bending puzzles, and race against time to find the hidden treasure! This thrilling adventure will test your teamwork, problem-solving skills, and ability to think on your feet. The ultimate challenge of wit, strategy, and speed awaits—will you be the one to uncover the prize?',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740509350/14_aponj6.png',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740735404/WhatsApp_Image_2025-02-28_at_3.04.59_PM_itpgb8.jpg',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLScvIJPkILR0RmKptaue_HRefhXyWFT68AH24cm5t6U3UgxAeA/viewform?usp=dialog',
     isRegOpen: true,
     price: '60',
     pricePool: '1000',
@@ -175,12 +175,12 @@ export const competition = [
     searchKey: 'quiz',
     type: 'non-tech',
     about:
-      'Are you ready to put your knowledge to the test? This quiz isn’t just about one field—it’s a thrilling mix of tech and non-tech questions! From coding to history, sports, and general knowledge, expect a mind-bending challenge that will keep you on your toes.Whether you are a tech geek, trivia lover, or just up for a fun challenge, this is your chance to show off your smarts, compete with the best, and claim victory! ',
-    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411650/QUIZ_es2veq.png',
+      'Are you ready to put your knowledge to the test? This quiz isn’t just about one field—it’s a thrilling mix of tech and non-tech questions! From technology to current affairs, sports, and general knowledge, expect a mind-bending challenge that will keep you on your toes.Whether you are a tech geek, trivia lover, or just up for a fun challenge, this is your chance to show off your smarts, compete with the best, and claim victory! ',
+    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734501/quiz_red_tlel23.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
     isRegOpen: true,
-    price: '50 (per team)',
+    price: '40 (per team)',
     pricePool: '800',
     note: 'noting to say!',
     contact: [

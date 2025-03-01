@@ -39,7 +39,7 @@ function Navbar() {
           {/* <li>
             <Link to="">ABOUT</Link>
           </li> */}
-           <li>
+          <li>
             <Link
               to="/hackathon"
               className={`${pathname == '/hackathon' && styles.visible}`}
@@ -47,7 +47,7 @@ function Navbar() {
               hackathon{' '}
               {pathname != '/hackathon' && <FiArrowUpRight color="#fff" />}
             </Link>
-          </li> 
+          </li>
           <li>
             <Link
               to="/competitions"
