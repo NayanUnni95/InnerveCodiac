@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -7,9 +6,6 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 
 const ImageCarousel = ({ imgSet, dir, animation }) => {
-  useEffect(() => {
-    console.log(animation);
-  }, [animation]);
   return (
     <div>
       <Swiper

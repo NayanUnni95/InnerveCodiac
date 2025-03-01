@@ -29,9 +29,6 @@ function CulturalContainer() {
               {data.map((_, colIndex) => {
                 const imageSetIndex =
                   (rowIndex * data.length + colIndex) % urls.length;
-                {
-                  console.log(imageSetIndex);
-                }
                 return (
                   <div className={styles.container} key={colIndex}>
                     <div className={styles.culturalPhotoCell}>
