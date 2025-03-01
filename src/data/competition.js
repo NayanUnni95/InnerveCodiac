@@ -12,7 +12,8 @@ export const competition = [
     isRegOpen: true,
     price: '40 (per team)',
     pricePool: '1000',
-    guidelines:'A team of 2. Do not share flags and solutions. Participants should bring 1 laptop per team. Flags must be submitted exactly when they are found',
+    guidelines:
+      'A team of 2. Do not share flags and solutions. Participants should bring 1 laptop per team. Flags must be submitted exactly when they are found',
     note: 'noting to say!',
     contact: [
       { name: 'Sreerag', no: '9400966092' },
@@ -51,7 +52,8 @@ export const competition = [
     isRegOpen: true,
     price: '40',
     pricePool: '1000',
-    guidelines:'Can use desired programming language. Conducted in Hackerrank. Participants are advised to create an account if not having. Your solution must follow a logical approach, not just print expected results.',
+    guidelines:
+      'Can use desired programming language. Conducted in Hackerrank. Participants are advised to create an account if not having. Your solution must follow a logical approach, not just print expected results.',
     note: 'noting to say!',
     contact: [
       { name: 'Geo', no: '6282551190' },
@@ -72,7 +74,8 @@ export const competition = [
     price: '40',
     pricePool: '1000',
     note: 'noting to say!',
-    guidelines:'can code in C or Python. If anyone uses an online compiler other than the platform provided,they will be disqualified',
+    guidelines:
+      'can code in C or Python. If anyone uses an online compiler other than the platform provided,they will be disqualified',
     contact: [
       { name: 'Vignesh', no: '8075091063' },
       { name: 'Adarsh', no: '9778080480' },
@@ -103,7 +106,7 @@ export const competition = [
       'Feel the adrenaline rush as you take control of high-speed remote-controlled cars and race against the best! Precision, reflexes, and control will be your keys to victory as you navigate sharp turns, dodge obstacles, and speed past your competitors. Do you have the skill to dominate the track and take the checkered flag?',
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/RC_RACING_dlfyka.png',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLScvIJPkILR0RmKptaue_HRefhXyWFT68AH24cm5t6U3UgxAeA/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '150',
     pricePool: '1500',
@@ -123,7 +126,8 @@ export const competition = [
     isRegOpen: true,
     price: '40',
     pricePool: '1000',
-    guidelines:'Two levels of 45 and 30 mins. Conducted in C language. Errors need to be corrected in the allowed duration',
+    guidelines:
+      'Two levels of 45 and 30 mins. Conducted in C language. Errors need to be corrected in the allowed duration',
     note: 'noting to say!',
     contact: [
       { name: 'Amal J P', no: '9744835021' },
@@ -139,7 +143,7 @@ export const competition = [
       'It’s football, but with robots! Control your team of bots and strategize to outplay your opponents, score goals, and claim victory. Whether you’re a robotics enthusiast or just love the thrill of competition, this event is the perfect blend of tech and sportsmanship. Get ready to dribble, pass, and score—robot style!',
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/ROBO_FOOTBALL_klxhs9.png',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '150',
     pricePool: '1500',
@@ -155,7 +159,7 @@ export const competition = [
       'Decode cryptic clues, solve mind-bending puzzles, and race against time to find the hidden treasure! This thrilling adventure will test your teamwork, problem-solving skills, and ability to think on your feet. The ultimate challenge of wit, strategy, and speed awaits—will you be the one to uncover the prize?',
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740735404/WhatsApp_Image_2025-02-28_at_3.04.59_PM_itpgb8.jpg',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLScvIJPkILR0RmKptaue_HRefhXyWFT68AH24cm5t6U3UgxAeA/viewform?usp=dialog',
     isRegOpen: true,
     price: '60',
     pricePool: '1000',
@@ -185,4 +189,3 @@ export const competition = [
     ],
   },
 ];
-

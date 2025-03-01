@@ -201,14 +201,14 @@ a {
   font-size: 16px !important;
 }
 
-.guidelines{
+.guidelines {
   text-align: left !important;
   padding-top: 5px;
-  color:#ffffff !important;
+  color: #ffffff !important;
   font-family: var(--primary-outfit);
 }
 
-.uldesign{
+.uldesign {
   list-style: disc;
-  color:#945c02d5;
+  color: #945c02d5;
 }

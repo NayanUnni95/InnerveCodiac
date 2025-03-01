@@ -53,20 +53,18 @@ function IndividualComp() {
             <div className={styles.contentPara}>
               <p>{compData && compData.about}</p>
               {compData && compData.type === 'tech' ? (
-  <>
-    <p className={styles.guidelines}>Guidelines</p>
-    <ul className={styles.uldesign}>
-      {compData.guidelines
-        .split('.')
-        .filter(guideline => guideline.trim() !== '') 
-        .map((guideline, index) => (
-          <li key={index}>{guideline.trim()}</li>
-        ))}
-    </ul>
-  </>
-) : null}
-
-
+                <>
+                  <p className={styles.guidelines}>Guidelines</p>
+                  <ul className={styles.uldesign}>
+                    {compData.guidelines
+                      .split('.')
+                      .filter((guideline) => guideline.trim() !== '')
+                      .map((guideline, index) => (
+                        <li key={index}>{guideline.trim()}</li>
+                      ))}
+                  </ul>
+                </>
+              ) : null}
 
               <h3 className={styles.compPrice}>
                 Contact Details

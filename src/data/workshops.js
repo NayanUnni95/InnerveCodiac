@@ -40,7 +40,7 @@ export const workshops = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740735405/WhatsApp_Image_2025-02-28_at_3.04.58_PM_1_wx2hoy.jpg',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeeqfA0EUA_Q6saBg6oLkEfMuFRUdatkq-5sWzSp6cqBIAgZA/viewform?usp=header',
-    price: 75,
+    price: 50,
     isRegOpen: true,
     note: 'noting to say!',
     contact: [{ name: 'Nandan M', no: '9020819263' }],
