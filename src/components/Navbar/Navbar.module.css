@@ -102,6 +102,7 @@
   visibility: hidden;
   transition: 0.4s ease-in-out;
   z-index: 999;
+  overflow: auto;
 }
 
 .overlay.active {
@@ -126,7 +127,7 @@
   text-decoration: none;
   font-family: myFirstFont;
   /* font-size: 78px; */
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
   position: relative;
   display: inline-block;
