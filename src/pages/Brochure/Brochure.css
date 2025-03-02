@@ -1,0 +1,25 @@
+.custom-swiper .swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.39) !important;
+  opacity: 1;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: rgb(255, 0, 0) !important;
+}
+.custom-swiper img {
+  max-height: 500px;
+}
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+}
+.custom-festName {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.custom-brochureLabel {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
