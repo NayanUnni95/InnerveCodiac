@@ -16,7 +16,7 @@ import NotFound from './pages/NotFound/NotFound';
 import IndividualComp from './pages/Competition/IndividualComp/IndividualComp';
 import IndividualEvent from './pages/Events/IndividualEvent/IndividualEvent';
 import IndividualWorkshop from './pages/Workshops/IndividualWorkshop/IndividualWorkshop';
-import ImageCarousel from './components/ImageCarousel/ImageCarousel';
+import Brochure from './pages/Brochure/Brochure';
 
 function App() {
   return (
@@ -35,13 +35,12 @@ function App() {
               path="/workshops/:workshopId"
               element={<IndividualWorkshop />}
             />
+            <Route path="/brochure" element={<Brochure />} />
             {/* <Route path="/about" element={'About'} /> */}
             {/* <Route path="/team" element={'Team'} /> */}
-            {/* <Route path="/brochure" element={'Brochure'} /> */}
             {/* <Route path="/rules" element={<Rules />} /> */}
             {/* <Route path="/sponsors" element={<Sponsors />} /> */}
           </Route>
-          <Route path="/img" element={<ImageCarousel />} />
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>
