@@ -81,7 +81,7 @@ function Home() {
                       <CountUp
                         from={0}
                         to={1000}
-                        separator=","
+                        // separator=","
                         direction="up"
                         duration={1}
                       />

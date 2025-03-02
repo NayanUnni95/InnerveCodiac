@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Card from './Card';
 import { Link } from 'react-router-dom';
 import styles from './CardExpand.module.css';
+import ShinyText from '../shinyText/ShinyText';
 
 function CardExpand() {
   const images = [
@@ -46,6 +47,12 @@ function CardExpand() {
               imgSrc={src}
               id={styles.cardWidth}
               isExpanded={expandedIndex === index + 1}
+            />
+            <ShinyText
+              text="Click to visit the page"
+              className={styles.cardNavigateLable}
+              disabled={false}
+              speed={3}
             />
           </Link>
         ))}
