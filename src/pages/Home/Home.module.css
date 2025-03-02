@@ -40,10 +40,14 @@
   font-size: 75px;
   font-family: var(--primary-bungee);
 }
+.increasingContent {
+  color: rgba(255, 226, 63, 0.53) !important;
+}
 .increasingText {
   font-family: var(--primary-barlow);
   font-size: 28px;
   text-align: center;
+  color: rgba(255, 226, 63, 0.53) !important;
 }
 .homeAboutContainer {
   padding: 2rem;

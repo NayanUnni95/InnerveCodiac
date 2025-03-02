@@ -9,7 +9,6 @@ function CulturalContainer() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIsanimationStart(true);
-      console.log('animation started');
     }, 5000);
 
     return () => clearInterval(interval);

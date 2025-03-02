@@ -46,4 +46,5 @@ function Countdown2() {
     </div>
   );
 }
+
 export default Countdown2;
