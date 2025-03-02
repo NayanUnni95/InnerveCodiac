@@ -70,17 +70,17 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram size={30} color="#a29797" />
+              <FaInstagram size={40} color="#ff3090" />
             </a>
             <a href="mailto:innerve.official2025@gmail.com">
-              <BiLogoGmail size={30} color="#a29797" />
+              <BiLogoGmail size={40} color="#ff2727" />
             </a>
             <a
               href="https://wa.me/+917034371668"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp size={30} color="#a29797" />
+              <FaWhatsapp size={40} color="#3cff3c" />
             </a>
           </div>
           <div>
