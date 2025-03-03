@@ -66,7 +66,6 @@ function IndividualComp() {
                 </ul>
               </>
               {/* ) : null} */}
-
               <h3 className={styles.compPrice}>
                 Contact Details
                 {compData &&

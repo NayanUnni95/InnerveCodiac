@@ -149,7 +149,7 @@ export const competition = [
       'It’s football, but with robots! Control your team of bots and strategize to outplay your opponents, score goals, and claim victory. Whether you’re a robotics enthusiast or just love the thrill of competition, this event is the perfect blend of tech and sportsmanship. Get ready to dribble, pass, and score—robot style!',
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/ROBO_FOOTBALL_klxhs9.png',
     regLink:
-      'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
+      'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
     isRegOpen: true,
     price: '150',
     pricePool: '1500',
@@ -192,7 +192,7 @@ export const competition = [
     price: '40 (per team)',
     pricePool: '800',
     guidelines:
-      'The competition would have multiple rounds,each round consists of 10 Questions. Each team must have 2 Participants (individual participation is allowed). The quiz will be majorly based on General Knowledge, with additional topics from Technology,Current Affairs,sports, and Movies. Open for both college and school students.',
+      'The competition would have multiple rounds,each round consists of 10 Questions. Each team may have 2 Participants (individual participation is allowed). The quiz will be majorly based on General Knowledge, with additional topics from Technology,Current Affairs,sports, and Movies. Open for both college and school students.',
     note: 'noting to say!',
     contact: [
       { name: 'Vaishnav', no: '7025208405' },
