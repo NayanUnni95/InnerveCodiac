@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { RiShareForwardFill } from 'react-icons/ri';
@@ -145,4 +145,4 @@ function IndividualComp() {
   );
 }
 
-export default transition(IndividualComp);
+export default React.memo(transition(IndividualComp));

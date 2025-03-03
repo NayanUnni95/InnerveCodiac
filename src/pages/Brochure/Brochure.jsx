@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -57,7 +57,7 @@ function Brochure() {
             slidesPerView={
               width <= 425 ? 1 : width > 425 && width <= 768 ? 2 : 3
             }
-            speed={1500}
+            speed={300}
             autoplay={{ delay: 8000 }}
             navigation={width > 425 && true}
             pagination={{ clickable: true }}
@@ -95,4 +95,4 @@ function Brochure() {
   );
 }
 
-export default Brochure;
+export default React.memo(Brochure);

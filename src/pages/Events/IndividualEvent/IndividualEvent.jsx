@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { RiShareForwardFill } from 'react-icons/ri';
 import { events } from '../../../data/data';
@@ -114,4 +114,4 @@ function IndividualEvent() {
   );
 }
 
-export default transition(IndividualEvent);
+export default React.memo(transition(IndividualEvent));

@@ -30,7 +30,7 @@ function Layout() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setVisible(false);
-    }, 1800);
+    }, 1500);
 
     return () => clearTimeout(timeout);
   }, [location.pathname]);
