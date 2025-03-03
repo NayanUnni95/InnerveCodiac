@@ -7,6 +7,10 @@ import styles from './Footer.module.css';
 function Footer() {
   const data = [
     {
+      category: 'Head of The Department',
+      subCategory: [{ name: 'Prof.Bindhu J S', number: '+91 9446916880' }],
+    },
+    {
       category: 'Faculty Coordinator',
       subCategory: [{ name: 'Prof.Shamna A L', number: '+91 9895480733' }],
     },
