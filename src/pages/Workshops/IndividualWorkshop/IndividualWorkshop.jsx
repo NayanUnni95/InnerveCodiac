@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { RiShareForwardFill } from 'react-icons/ri';
@@ -128,4 +128,4 @@ function IndividualWorkshop() {
   );
 }
 
-export default transition(IndividualWorkshop);
+export default React.memo(transition(IndividualWorkshop));

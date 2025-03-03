@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { RiShareForwardFill } from 'react-icons/ri';
@@ -52,19 +52,20 @@ function IndividualComp() {
             </div>
             <div className={styles.contentPara}>
               <p>{compData && compData.about}</p>
-              {compData && compData.type === 'tech' ? (
-                <>
-                  <p className={styles.guidelines}>Guidelines</p>
-                  <ul className={styles.uldesign}>
-                    {compData.guidelines
+              {/* {compData && compData.type === 'tech' ? ( */}
+              <>
+                <p className={styles.guidelines}>Guidelines</p>
+                <ul className={styles.uldesign}>
+                  {compData &&
+                    compData.guidelines
                       .split('.')
                       .filter((guideline) => guideline.trim() !== '')
                       .map((guideline, index) => (
                         <li key={index}>{guideline.trim()}</li>
                       ))}
-                  </ul>
-                </>
-              ) : null}
+                </ul>
+              </>
+              {/* ) : null} */}
               <h3 className={styles.compPrice}>
                 Contact Details
                 {compData &&
@@ -144,4 +145,4 @@ function IndividualComp() {
   );
 }
 
-export default transition(IndividualComp);
+export default React.memo(transition(IndividualComp));

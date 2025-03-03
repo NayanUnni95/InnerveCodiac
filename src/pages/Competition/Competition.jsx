@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { competition } from '../../data/data';
 import transition from '../../components/Transition/Transition';
@@ -78,4 +78,4 @@ function Competition() {
   );
 }
 
-export default transition(Competition);
+export default React.memo(transition(Competition));
