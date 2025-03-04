@@ -94,8 +94,40 @@ function Navbar() {
               )}
             </Link>
           </li>
+          <li>
+            <Link
+              to="/brochure"
+              className={`${pathname == '/brochure' && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
+            >
+              brochure{' '}
+              {pathname != '/brochure' && <FiArrowUpRight color="#fff" />}
+            </Link>
+          </li>
           {/* <li>
-            <Link to="/rules" className={`${pathname == '/rules' && styles.visible}`}>RULES</Link>
+            <Link
+              to="/sponsors"
+              className={`${pathname == '/sponsors' && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
+            >
+              Sponsors{' '}
+              {pathname != '/sponsors' && <FiArrowUpRight color="#fff" />}
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/rules"
+              className={`${pathname == '/rules' && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
+            >
+              Rules {pathname != '/rules' && <FiArrowUpRight color="#fff" />}
+            </Link>
           </li> */}
         </ul>
       </div>

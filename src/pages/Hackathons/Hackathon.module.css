@@ -12,7 +12,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .hero_section {
   display: flex;
   flex-wrap: wrap;
@@ -133,7 +132,6 @@
 .detail_card:hover {
   transform: translateY(-10px);
 }
-
 .contact_section {
   text-align: center;
   padding: 50px 0;
@@ -172,7 +170,6 @@
     align-items: center;
   }
 }
-
 .regprice {
   color: orange;
   font-size: 30px;

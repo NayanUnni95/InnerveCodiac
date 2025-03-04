@@ -1,0 +1,40 @@
+.brochureOuterContainer {
+  height: 100dvh;
+  background-color: #000000;
+}
+.brochureInnerContainer {
+  margin-top: 6rem;
+  background-color: #000000;
+}
+.lableSection {
+  font-family: var(--primary-opensans);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imageSection {
+  margin: 1rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.accessContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.downloadBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(71, 71, 71, 0.301);
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+}
+.downloadBtn {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.downloadBtn > * {
+  margin: 0.5rem;
+}

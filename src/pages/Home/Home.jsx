@@ -1,4 +1,4 @@
-// import { useState, useEffect } from 'react';
+import React from 'react';
 // import AboutUS from '../../components/AboutUS/AboutUS';
 import CardExpand from '../../components/CardExpand/CardExpand';
 // import CardRevel from '../../components/CardRevel/CardRevel';
@@ -81,7 +81,7 @@ function Home() {
                       <CountUp
                         from={0}
                         to={1000}
-                        separator=","
+                        // separator=","
                         direction="up"
                         duration={1}
                       />
@@ -189,4 +189,4 @@ function Home() {
   );
 }
 
-export default transition(Home);
+export default React.memo(transition(Home));

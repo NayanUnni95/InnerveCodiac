@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { workshops } from '../../data/data';
 import transition from '../../components/Transition/Transition';
@@ -48,4 +48,4 @@ function Workshops() {
   );
 }
 
-export default transition(Workshops);
+export default React.memo(transition(Workshops));

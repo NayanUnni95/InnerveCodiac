@@ -6,7 +6,7 @@ export const workshops = [
     about:
       'Heard of AWS but don’t know what it really is? It’s the backbone of modern apps and websites, used by top companies worldwide. This workshop will break down cloud computing in simple terms, show you how to host your own applications, and give you hands-on experience with one of the most in-demand skills today. No prior knowledge needed—just enthusiasm to learn!',
     type: 'workshops',
-    url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740735405/WhatsApp_Image_2025-02-28_at_3.04.58_PM_ggvoac.jpg',
+    url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740896411/WhatsApp_Image_2025-03-01_at_1.48.23_PM_m8qasy.jpg',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfh3nA9B2pBLQko7SFkX-g1SwwHholQoslq45GvYqT81vlTuQ/viewform?usp=header',
     price: 150,

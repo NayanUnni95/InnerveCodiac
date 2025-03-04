@@ -1,8 +1,7 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { events } from '../../data/data';
 import transition from '../../components/Transition/Transition';
-// import { FiArrowUpRight } from 'react-icons/fi';
 import styles from './Events.module.css';
 
 function Events() {
@@ -94,4 +93,4 @@ function Events() {
   );
 }
 
-export default transition(Events);
+export default React.memo(transition(Events));

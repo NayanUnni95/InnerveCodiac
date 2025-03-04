@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Hackathon.module.css';
 import hackathon_img from '../../assets/images/home/TwoThousandSixteen.png';
 import Countdown2 from '../../components/daisyUI/countdown2';
@@ -85,4 +86,4 @@ function Hackathon() {
   );
 }
 
-export default transition(Hackathon);
+export default React.memo(transition(Hackathon));

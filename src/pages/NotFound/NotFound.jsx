@@ -31,4 +31,4 @@ function NotFound() {
   );
 }
 
-export default transition(NotFound);
+export default React.memo(transition(NotFound));
