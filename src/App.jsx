@@ -17,6 +17,7 @@ import IndividualComp from './pages/Competition/IndividualComp/IndividualComp';
 import IndividualEvent from './pages/Events/IndividualEvent/IndividualEvent';
 import IndividualWorkshop from './pages/Workshops/IndividualWorkshop/IndividualWorkshop';
 import Brochure from './pages/Brochure/Brochure';
+import Schedule from './pages/Schedule/Schedule';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
               element={<IndividualWorkshop />}
             />
             <Route path="/brochure" element={<Brochure />} />
+            <Route path="/schedule" element={<Schedule />} />
             {/* <Route path="/about" element={'About'} /> */}
             {/* <Route path="/team" element={'Team'} /> */}
             {/* <Route path="/rules" element={<Rules />} /> */}

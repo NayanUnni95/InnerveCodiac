@@ -106,6 +106,18 @@ function Navbar() {
               {pathname != '/brochure' && <FiArrowUpRight color="#fff" />}
             </Link>
           </li>
+          <li>
+            <Link
+              to="/schedule"
+              className={`${pathname == '/schedule' && styles.visible}`}
+              onClick={() => {
+                setIsNavVisible(!isNavVisible);
+              }}
+            >
+              schedule{' '}
+              {pathname != '/schedule' && <FiArrowUpRight color="#fff" />}
+            </Link>
+          </li>
           {/* <li>
             <Link
               to="/sponsors"
