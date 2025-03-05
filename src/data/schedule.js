@@ -158,7 +158,7 @@ export const schedule = [
       end: '11.30 am',
     },
     date: '07/03/25',
-    venue: 'programmig lab',
+    venue: 'programming lab',
     facultyCoordinator: ['devi dath'],
     studentCoordinator: ['reni thomas'],
     resourcePerson: ['reni thomas'],
