@@ -227,21 +227,6 @@ export const schedule = [
     isEnd: false,
   },
   {
-    event: 'cultural program',
-    time: {
-      start: '03.00 pm',
-      end: '07.00 pm',
-    },
-    date: '07/03/25',
-    venue: 'main gate entrance',
-    facultyCoordinator: ['dr. afzal a l', 'vinod kumar', 'devi dath'],
-    studentCoordinator: ['abhijith r k', 'bidhun'],
-    resourcePerson: [],
-    isStart: false,
-    isPending: false,
-    isEnd: false,
-  },
-  {
     event: 'hardware expo',
     time: {
       start: '11.00 am',
@@ -287,12 +272,27 @@ export const schedule = [
     isEnd: false,
   },
   {
+    event: 'cultural program',
+    time: {
+      start: '03.00 pm',
+      end: '07.00 pm',
+    },
+    date: '07/03/25',
+    venue: 'main gate entrance',
+    facultyCoordinator: ['dr. afzal a l', 'vinod kumar', 'devi dath'],
+    studentCoordinator: ['abhijith r k', 'bidhun'],
+    resourcePerson: [],
+    isStart: false,
+    isPending: false,
+    isEnd: false,
+  },
+  {
     event: 'full day workshop aws',
     time: {
       start: '11.00 am',
       end: '03.00 pm',
     },
-    date: '07/03/25',
+    date: '08/03/25',
     venue: 'hardware lab',
     facultyCoordinator: ['surya s r'],
     studentCoordinator: ['abishek vijayan'],

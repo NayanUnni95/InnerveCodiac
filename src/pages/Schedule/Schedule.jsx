@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { schedule } from '../../data/data';
 
 function Schedule() {
-  const [filteredData, setFilteredData] = useState(schedule);
+  const [filteredData, setFilteredData] = useState(
+    schedule.filter((value) => value.date == '06/03/25')
+  );
   const [filterType, setFilterType] = useState('06/03/25');
 
   const triggerFilter = (date) => {
@@ -15,17 +17,12 @@ function Schedule() {
       setFilteredData(schedule.filter((value) => value.date == '08/03/25'));
     }
   };
-
-  // useEffect(() => {
-  //   console.log(filteredData);
-  // }, [filteredData]);
   return (
     <div
       style={{
         margin: '6rem 2rem 6rem 2rem',
         width: 'content',
         display: 'flex',
-        // backgroundColor: 'black',
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
