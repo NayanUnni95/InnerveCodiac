@@ -9,7 +9,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734501/CTF_RED_kopvca.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfTIHPdkIU4QXN_r7Xzd6CWhZWMa2HB39hrunBa8N8mldt_yQ/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40 (per team)',
     pricePool: '1000',
     guidelines:
@@ -30,7 +30,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734498/ai_prompt_red_tc2xhh.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40',
     guidelines:
       'All prompts must be created by the participant. No AI assistance allowed- Using AI to generate prompts results in immediate disqualification. Strictly No Copying- plagiarized or externally sourced prompts will lead to disqualification. Judging Criteria: Creativity,Clarity and effectiveness. ',
@@ -51,7 +51,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734472/REVERSE_CODING_RED_wcvfd4.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeJAmmU2nRATcENCFe3zZ9L9lTYRP_tHubuR8m87mRC9oI9QQ/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40',
     pricePool: '1000',
     guidelines:
@@ -72,7 +72,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734506/COmpetitve_coding_red_xabdsw.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSexBGBffmN1xB4PGoDezMSemty1HQ1QiNnOC8xM2vd4kn2nMg/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40',
     pricePool: '1000',
     note: 'noting to say!',
@@ -93,7 +93,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734504/Artboard_20_njy60s.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40',
     guidelines:
       'This is strictly offline competition. Entries must be handwritten,necessary papers will be provided for the participants. The Journal entry must be written in English only and not exceed a maximum length of five pages. Writing must be legible and neat. Topic will be given 10 minutes prior to the competition,participants can use their phones only during this time for reference. Participants will be given a total duration of one and half hour to complete their journal entries.',
@@ -111,7 +111,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/RC_RACING_dlfyka.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '150',
     guidelines:
       'Categories: Off-road, On-road. Race Format: Time trials,knockout rounds, and a grand finale. Bring your own RC car, adhere to speed limits, and follow fair play rules.',
@@ -129,7 +129,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/debugging_dxwldh.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfurpo00Vx8u25KYU4RUYWm-CyJPTrYPiwi4saUvhb-ff4BEg/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40',
     pricePool: '1000',
     guidelines:
@@ -150,7 +150,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734511/ROBO_FOOTBALL_klxhs9.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfNgM3WLUteVyn7yD7lVCXBWcyLpHaBDRDnGY8yo9SlgrgWoA/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '150',
     pricePool: '1500',
     guidelines: 'Nothing to say!',
@@ -167,7 +167,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740735404/WhatsApp_Image_2025-02-28_at_3.04.59_PM_itpgb8.jpg',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLScvIJPkILR0RmKptaue_HRefhXyWFT68AH24cm5t6U3UgxAeA/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '60',
     pricePool: '1000',
     guidelines:
@@ -188,7 +188,7 @@ export const competition = [
     url: 'https://res.cloudinary.com/di8jy5v9d/image/upload/v1740734501/quiz_red_tlel23.png',
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSd5nmV1BXemLigbhHt4IMntIvub1aNz28szAk6GRrH8EGcxkg/viewform?usp=dialog',
-    isRegOpen: true,
+    isRegOpen: false,
     price: '40 (per team)',
     pricePool: '800',
     guidelines:

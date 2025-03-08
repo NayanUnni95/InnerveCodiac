@@ -10,7 +10,7 @@ export const workshops = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSfh3nA9B2pBLQko7SFkX-g1SwwHholQoslq45GvYqT81vlTuQ/viewform?usp=header',
     price: 150,
-    isRegOpen: true,
+    isRegOpen: false,
     note: 'noting to say!',
     contact: [{ name: 'Abhishek', no: '6282782628' }],
   },
@@ -25,7 +25,7 @@ export const workshops = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeeqfA0EUA_Q6saBg6oLkEfMuFRUdatkq-5sWzSp6cqBIAgZA/viewform?usp=header',
     price: 50,
-    isRegOpen: true,
+    isRegOpen: false,
     note: 'noting to say!',
     contact: [{ name: 'Sandeep', no: '7593096592' }],
   },
@@ -41,7 +41,7 @@ export const workshops = [
     regLink:
       'https://docs.google.com/forms/d/e/1FAIpQLSeeqfA0EUA_Q6saBg6oLkEfMuFRUdatkq-5sWzSp6cqBIAgZA/viewform?usp=header',
     price: 50,
-    isRegOpen: true,
+    isRegOpen: false,
     note: 'noting to say!',
     contact: [{ name: 'Nandan M', no: '9020819263' }],
   },

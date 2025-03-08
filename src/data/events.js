@@ -8,7 +8,7 @@ export const events = [
     type: 'funGames',
     url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740509263/2_uqyrz3.png',
     reglink: null,
-    isRegOpen: true,
+    isRegOpen: false,
     price: '199',
     note: 'Spot Registration',
     contact: [
@@ -25,7 +25,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506208/REVERSE_CODING_RED_thcigh.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -42,7 +42,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411590/COMPETIITVE_CODING_jfsixa.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -59,7 +59,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -76,7 +76,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/RC_bwwrgl.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -93,7 +93,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411614/DEBUGGING_uegdia.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -110,7 +110,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411703/ROBO_FOOTBALL_ezlv2x.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -127,7 +127,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411601/CTF_bkearb.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -144,7 +144,7 @@ export const events = [
   //   type: 'funGames',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411650/QUIZ_es2veq.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -161,7 +161,7 @@ export const events = [
   //   type: 'expo',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/RC_bwwrgl.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -178,7 +178,7 @@ export const events = [
   //   type: 'expo',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411614/DEBUGGING_uegdia.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -195,7 +195,7 @@ export const events = [
   //   type: 'expo',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740506207/RC_bwwrgl.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -212,7 +212,7 @@ export const events = [
   //   type: 'expo',
   //   url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740411703/ROBO_FOOTBALL_ezlv2x.png',
   //   regLink: null,
-  //   isRegOpen: true,
+  //   isRegOpen: false,
   //   price: '199',
   //   note: 'Spot Registration',
   //   contact: [
@@ -229,7 +229,7 @@ export const events = [
     type: 'expo',
     url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740576909/Artboard_23_xemktc.png',
     reglink: null,
-    isRegOpen: true,
+    isRegOpen: false,
     price: null,
     note: 'Spot Registration',
     contact: [],
@@ -243,7 +243,7 @@ export const events = [
     type: 'expo',
     url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740576909/Artboard_22_epzqxb.png',
     reglink: null,
-    isRegOpen: true,
+    isRegOpen: false,
     price: null,
     note: 'Spot Registration',
     contact: [],
@@ -257,7 +257,7 @@ export const events = [
     type: 'expo',
     url: 'https://res.cloudinary.com/dvcavdo7y/image/upload/v1740576926/Artboard_14_lweokt.png',
     reglink: null,
-    isRegOpen: true,
+    isRegOpen: false,
     price: null,
     note: 'Spot Registration',
     contact: [],
