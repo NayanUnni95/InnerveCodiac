@@ -111,7 +111,18 @@ function IndividualComp() {
             </div> */}
             <div className={styles.contentBtn}>
               <Link>
-                <button onClick={() => navigate(compData && compData.regLink)}>
+                <button
+                  onClick={() => {
+                    if (compData.isRegOpen)
+                      navigate(compData && compData.regLink);
+                  }}
+                  // style={{
+                  //   cursor:
+                  //     compData && compData.isRegOpen
+                  //       ? 'pointer'
+                  //       : 'not-allowed',
+                  // }}
+                >
                   {/* Register{' '} */}
                   {compData && compData.isRegOpen ? (
                     <>

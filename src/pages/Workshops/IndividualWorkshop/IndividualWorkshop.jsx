@@ -93,7 +93,16 @@ function IndividualWorkshop() {
             <div className={styles.contentBtn}>
               <Link>
                 <button
-                  onClick={() => navigate(workshopData && workshopData.regLink)}
+                  onClick={() => {
+                    if (workshopData.isRegOpen)
+                      navigate(workshopData && workshopData.regLink);
+                  }}
+                  style={{
+                    cursor:
+                      workshopData && workshopData.isRegOpen
+                        ? 'pointer'
+                        : 'not-allowed',
+                  }}
                 >
                   {/* Register{' '} */}
                   {workshopData && workshopData.isRegOpen ? (
