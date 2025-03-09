@@ -59,3 +59,26 @@ npm run build
 npm install -g http-server;
 http-server dist
 ```
+
+> **P.S**: If you have `docker` installed in your system, you can follow these steps to set up the environment:
+>
+> 1. After forking and cloning the repo(as mentioned above), get into the project directory:
+>
+> ```bash
+> cd InnerveCodiac/
+> ```
+
+<!-- > 2. Pull the image from docker hub:
+>
+> ```bash
+> docker pull
+> ``` -->
+
+> 2. Start the docker container with:
+>
+> ```bash
+> docker compose up
+> ```
+>
+> 3. Now start adding your changes.
+>    **Note:** You don't need to restart the container again and again after starting it once, because the changes you make will reflect in the container instantly.

@@ -1,0 +1,12 @@
+# version: '1.0.0'
+
+services:
+  innervecodiac:
+    # image: innerve-25
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
