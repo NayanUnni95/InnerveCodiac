@@ -26,22 +26,22 @@ function App() {
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Home />} />
-            <Route path="/hackathon" element={<Hackathon />} />
-            <Route path="/competitions" element={<Competition />} />
-            <Route path="/competitions/:compId" element={<IndividualComp />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/events/:eventId" element={<IndividualEvent />} />
-            <Route path="/workshops" element={<Workshops />} />
+            <Route path="hackathon" element={<Hackathon />} />
+            <Route path="competitions" element={<Competition />} />
+            <Route path="competitions/:compId" element={<IndividualComp />} />
+            <Route path="events" element={<Events />} />
+            <Route path="events/:eventId" element={<IndividualEvent />} />
+            <Route path="workshops" element={<Workshops />} />
             <Route
-              path="/workshops/:workshopId"
+              path="workshops/:workshopId"
               element={<IndividualWorkshop />}
             />
-            <Route path="/brochure" element={<Brochure />} />
-            <Route path="/schedule" element={<Schedule />} />
-            {/* <Route path="/about" element={'About'} /> */}
-            {/* <Route path="/team" element={'Team'} /> */}
-            {/* <Route path="/rules" element={<Rules />} /> */}
-            {/* <Route path="/sponsors" element={<Sponsors />} /> */}
+            <Route path="brochure" element={<Brochure />} />
+            <Route path="schedule" element={<Schedule />} />
+            {/* <Route path="about" element={'About'} /> */}
+            {/* <Route path="team" element={'Team'} /> */}
+            {/* <Route path="rules" element={<Rules />} /> */}
+            {/* <Route path="sponsors" element={<Sponsors />} /> */}
           </Route>
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
